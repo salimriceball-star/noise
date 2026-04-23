@@ -1,0 +1,56 @@
+# grok-v3-005 — 로봇/ AI를 활용한 노인 케어와 인간 돌봄 가치
+
+source: new_grok_v3
+original_idea_id: grok-005
+time_window_used: 48h
+source_type: grok_synthesis
+source_confidence: medium
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+휴머노이드 로봇 관련 포스트에서 케어 확장 가능성 암시
+
+## Concept
+surface_claim: 로봇이 노인 돌봄을 효율적으로 담당할 수 있어 가족 부담을 줄인다.
+implicit_premise: 돌봄 노동은 감정적 친밀성보다 기능적 효율이 더 중요하며, 인간 대신 로봇으로 대체 가능하다.
+viewer_meta_message: 작성자는 결국 케어를 '서비스'로 환원하고 인간 관계의 대체를 자연스럽게 여기는구나.
+scene_caption_gap: 로봇이 노인과 대화하며 약 주고 식사 돕는 따뜻한 장면 vs '인간 노동 대체로 가족 자유 증대' 캡션
+main_axis: 효율 케어 vs 감정 케어
+support_axis: 가족 부담 vs 인간성
+background_axis: 기술 vs 관계
+
+## Likely Comment Axes
+- 로봇 돌봄이 진짜 케어인가 vs 외로움 해결
+- 자녀 세대 책임 회피 vs 현실적 선택
+- 로봇과 인간의 친밀성 차이
+- 고령 사회 비용 분담
+
+## Story Hook
+로봇이 할머니와 산책하며 이야기. 가족은 여행 중. 캡션: '로봇이 24시간 케어해드려요. 가족은 더 자유롭게 생활하세요.'
+
+## 6-Cut Seed
+1. utility — 로봇 약 챙김
+   expected_comments: 정확하지만 따뜻함은?
+2. care — 로봇과 노인 대화
+   expected_comments: 로봇이 공감할 수 있나
+3. intimacy — 로봇이 손 잡음
+   expected_comments: 인간 가족과의 차이
+4. authority — 의료 기관 추천
+   expected_comments: 기술이 가족 역할 대체
+5. aftermath — 가족 귀환 후 로봇과 노인
+   expected_comments: 관계 변화
+6. utility — 통계 '케어 비용 절감'
+   expected_comments: 인간 가치 손실
+
+## Risk
+risk_note:
+freshness_risk: low
+discard_if: 보호집단 비하가 필요한 경우
+
+## Score
+interpretation_conflict: 9
+rebuttal_pull: 8
+self_projection_pull: 8
+visual_caption_gap: 9
+brand_damage_risk: 3

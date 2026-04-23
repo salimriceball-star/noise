@@ -37,3 +37,13 @@
 - [x] 스토리보드 3개 버전 저장
 - [x] skill 등록 (`noise-x-grok-manual-idea-sourcing`)
 - [x] git commit/push
+
+## Milestone 6: Refreshed Grok v3 synthesis + storyboard images
+- [x] 최근 Serena memory 및 기존 post-prompt-engineering 후보 확인
+- [x] BrowserOS X home 재캡처 (`x-home-capture-v3.json`)
+- [x] 업데이트된 engineered prompt로 Grok 재질의 (`grok-prompt-v3-engineered.txt`)
+- [x] Grok v3 응답 12개 파싱 (`grok-ideas-v3-parsed.json`)
+- [x] 기존 11개 아이디어 + v2 후보 + v3 12개를 종합해 storyboard 후보 3개 작성 (`outputs/storyboards/2026-04-23-all-ideas-v3/`)
+- [x] GUIVM 점유 확인; Hermes image tool은 `FAL_KEY environment variable not set` 로 실패
+- [x] 이미지 경로 제공을 위해 local storyboard PNG fallback 3개 생성 (`outputs/storyboard-images/2026-04-23-local-storyboard-v3/`)
+- [x] 이미지 파일/manifest 및 vision inspection 검증

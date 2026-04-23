@@ -1,0 +1,56 @@
+# grok-v3-011 — 청년 경제활동 하락과 AI/자동화 영향
+
+source: new_grok_v3
+original_idea_id: grok-011
+time_window_used: 7d
+source_type: web_search
+source_confidence: medium
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+한국 청년 경제활동 참가율 하락 및 AI 대체 논의
+
+## Concept
+surface_claim: AI 도입으로 일부 업무가 대체되지만, 새로운 기회가 생긴다.
+implicit_premise: 청년 노동 참여 감소는 기술 진보의 자연스러운 과정이며, 개인 적응이 해결책이다.
+viewer_meta_message: 작성자는 결국 구조적 문제를 개인/기술 탓으로 돌리는구나.
+scene_caption_gap: 청년이 구직 포기하는 장면과 AI 로봇이 일하는 공장 병치, 캡션: 'AI가 미래 일자리를 창출합니다.'
+main_axis: 기술 진보 vs 청년 현실
+support_axis: 적응 vs 구조
+background_axis: 세대 계급
+
+## Likely Comment Axes
+- AI가 일자리 없애는가 창출하는가
+- 청년 포기 이유(계급/교육)
+- 정부 정책 vs 시장
+- 미래 노동 의미
+
+## Story Hook
+청년이 면접 떨어지는 장면과 공장에서 AI가 대신 일하는 장면. 캡션: '변화에 적응하는 청년이 승자입니다.'
+
+## 6-Cut Seed
+1. utility — 청년 구직
+   expected_comments: 기회 부족
+2. authority — AI 도입 기업
+   expected_comments: 대체 속도
+3. aftermath — 청년 빈자리
+   expected_comments: 포기 세대
+4. care — 가족 걱정
+   expected_comments: 세대 부담
+5. utility — 새 AI 직업 훈련
+   expected_comments: 누구나 가능한가
+6. intimacy — 청년 자기반성
+   expected_comments: 자기기만 vs 현실
+
+## Risk
+risk_note:
+freshness_risk: medium
+discard_if: 보호집단 비하가 필요한 경우
+
+## Score
+interpretation_conflict: 8
+rebuttal_pull: 8
+self_projection_pull: 9
+visual_caption_gap: 8
+brand_damage_risk: 3

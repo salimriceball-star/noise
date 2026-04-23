@@ -1,0 +1,56 @@
+# grok-v3-006 — KTX 등 안전 업무의 AI/자동화 대체 논의
+
+source: new_grok_v3
+original_idea_id: grok-006
+time_window_used: 24h
+source_type: x_search
+source_confidence: high
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+KTX 관련 대참사 우려 포스트에서 'AI 대체' 댓글 등장
+
+## Concept
+surface_claim: 인간 오류로 인한 사고를 막기 위해 안전 업무를 AI나 자동화로 대체해야 한다.
+implicit_premise: 인간 노동의 실수는 용납 불가하나, 자동화의 한계나 새로운 위험은 덜 논의되며 효율이 우선이다.
+viewer_meta_message: 작성자는 결국 인간 노동자를 '위험 요인'으로 보고 기술로 교체하는 걸 당연시하는구나.
+scene_caption_gap: KTX 기관사 자는 장면 모사 vs AI 시스템이 완벽히 제어하는 장면, 캡션: '인간 피로를 없애 안전을 높이자'
+main_axis: 안전 vs 인간 노동
+support_axis: 자동화 vs 전문성
+background_axis: 비용 vs 신뢰
+
+## Likely Comment Axes
+- AI가 정말 100% 안전한가 vs 인간 판단력
+- 일자리 대체 vs 생명 보호
+- 노동자 vs 승객 관점 차이
+- 자동화 사회의 새로운 리스크
+
+## Story Hook
+KTX 운행 중 인간 기관사가 피곤해하는 장면과 AI가 대신 제어하는 장면 병치. 캡션: 'AI로 대체하면 대참사를 막을 수 있습니다.'
+
+## 6-Cut Seed
+1. utility — 인간 기관사 피로
+   expected_comments: 인간 오류 위험
+2. authority — AI 시스템 개입
+   expected_comments: AI 판단 신뢰?
+3. care — 승객 안전 강조
+   expected_comments: 승객 vs 노동자
+4. utility — 자동화 후 빈 운전석
+   expected_comments: 인간 역할 사라짐
+5. aftermath — 사고 없는 운행
+   expected_comments: 완벽 vs 공허
+6. intimacy — 노동자 가족 반응
+   expected_comments: 가족에게 미치는 영향
+
+## Risk
+risk_note:
+freshness_risk: low
+discard_if: 특정 개인 공격이 필요한 경우
+
+## Score
+interpretation_conflict: 8
+rebuttal_pull: 9
+self_projection_pull: 7
+visual_caption_gap: 8
+brand_damage_risk: 4

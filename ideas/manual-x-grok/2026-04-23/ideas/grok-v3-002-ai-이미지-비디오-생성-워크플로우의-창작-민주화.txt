@@ -1,0 +1,56 @@
+# grok-v3-002 — AI 이미지/비디오 생성 워크플로우의 창작 민주화
+
+source: new_grok_v3
+original_idea_id: grok-002
+time_window_used: 48h
+source_type: x_home_feed
+source_confidence: high
+status: storyboarded
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+GPT image-2 + Seedance2.0으로 3x3 스토리보드 제작 후 비디오 변환, 프롬프트 서툴러도 실패 적음 관련 포스트
+
+## Concept
+surface_claim: 제품 사진 한 장이나 간단 스토리보드로 전문가 없이 고품질 광고/영상을 만들 수 있다.
+implicit_premise: 창작 가치와 전문성은 도구 조합의 속도와 편의로 재계산될 수 있으며, 개인/소상공인이 전문 팀을 대체 가능하다.
+viewer_meta_message: 작성자는 결국 '누구나 창작자'라는 민주화를 말하지만, 전문가의 감각과 경험을 도구로 환원하는 걸 당연하게 여기는구나.
+scene_caption_gap: 동네 가게 사장이 AI로 멋진 광고 만드는 장면 vs 옆에서 지켜보는 디자이너의 표정에 드러나는 전문성 평가절하
+main_axis: 민주화 vs 전문성
+support_axis: 속도 vs 감각
+background_axis: 취향 vs 자동화
+
+## Likely Comment Axes
+- 소상공인 기회 확대 vs 직업 대체
+- 프롬프트만 잘 쓰면 된다는 속도 숭배 vs 깊이 있는 창작 가치
+- AI가 인간 취향을 배우는 과정에서 창의성 희석
+- 콘텐츠 과잉 시대의 질 vs 양
+
+## Story Hook
+작은 가게 사장이 고양이 사료 사진 하나로 AI 스토리보드 만들어 영상 완성. 옆 디자이너가 조용히 지켜봄. 캡션: '프롬프트 서툴러도 문제없어요. 이제 누구나 광고 제작자입니다.'
+
+## 6-Cut Seed
+1. utility — 사장이 사진 찍음
+   expected_comments: 이제 사진만 찍으면 끝?
+2. utility — AI가 3x3 그리드 생성
+   expected_comments: 도구가 창의성을 대신하나
+3. care — 사장이 가족에게 영상 보여줌
+   expected_comments: 개인화된 콘텐츠가 진짜 감동 줄까
+4. authority — 디자이너가 기존 작업물 비교
+   expected_comments: 전문가 역할은?
+5. intimacy — 로봇/AI가 '창작' 도와주는 듯한 장면
+   expected_comments: AI와의 협업이 친밀할까
+6. aftermath — 소셜에 업로드된 영상 폭발적 조회
+   expected_comments: 양적 성공 vs 질적 공허
+
+## Risk
+risk_note:
+freshness_risk: low
+discard_if: 허위 사실 단정이 필요한 경우
+
+## Score
+interpretation_conflict: 8
+rebuttal_pull: 9
+self_projection_pull: 9
+visual_caption_gap: 8
+brand_damage_risk: 4

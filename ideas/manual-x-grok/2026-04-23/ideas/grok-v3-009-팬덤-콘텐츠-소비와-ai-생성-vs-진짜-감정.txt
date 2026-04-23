@@ -1,0 +1,56 @@
+# grok-v3-009 — 팬덤 콘텐츠 소비와 AI 생성 vs 진짜 감정
+
+source: new_grok_v3
+original_idea_id: grok-009
+time_window_used: 7d
+source_type: grok_synthesis
+source_confidence: low
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+K-팝 팬덤 문화 지속 신호
+
+## Concept
+surface_claim: AI로 아이돌 콘텐츠를 무한 생성해 팬 경험을 강화한다.
+implicit_premise: 팬덤의 감정적 만족은 진짜 인간 아티스트보다 AI 생성물로도 충분히 충족될 수 있다.
+viewer_meta_message: 작성자는 결국 팬덤 관계를 소비/생산 도구로 보는구나.
+scene_caption_gap: 팬이 AI 생성 아이돌 영상에 열광하는 장면 vs 실제 콘서트 빈자리 암시
+main_axis: 가상 친밀 vs 진짜 관계
+support_axis: 편의 vs 진정성
+background_axis: 소비 vs 헌신
+
+## Likely Comment Axes
+- AI 아이돌이 진짜 팬덤인가
+- 아티스트 노동 가치
+- 팬덤 내 계급/자기기만
+- 미래 엔터 산업 변화
+
+## Story Hook
+팬이 AI로 만든 아이돌 직캠에 댓글 폭발. 실제 아이돌은 피곤한 모습. 캡션: '언제 어디서나 완벽한 팬 서비스.'
+
+## 6-Cut Seed
+1. intimacy — AI 아이돌 미소
+   expected_comments: 이게 진짜 감정?
+2. utility — 팬 댓글 달음
+   expected_comments: 편하지만 공허
+3. care — 실제 아티스트 휴식
+   expected_comments: 인간 vs AI
+4. aftermath — 팬덤 통계 상승
+   expected_comments: 숫자 vs 질
+5. authority — 엔터사 AI 도입
+   expected_comments: 산업 변화
+6. intimacy — 팬 혼자 영상 봄
+   expected_comments: 외로움 해소?
+
+## Risk
+risk_note: 특정 팬덤 비하 피함
+freshness_risk: medium
+discard_if: 특정 개인 공격이 필요한 경우
+
+## Score
+interpretation_conflict: 7
+rebuttal_pull: 7
+self_projection_pull: 8
+visual_caption_gap: 8
+brand_damage_risk: 5

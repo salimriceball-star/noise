@@ -1,0 +1,56 @@
+# grok-v3-004 — 플랫폼 연령 인증과 부모/가족 감시
+
+source: new_grok_v3
+original_idea_id: grok-004
+time_window_used: 48h
+source_type: grok_synthesis
+source_confidence: medium
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+한국 플랫폼 안전/인증 관련 지속 논의(홈피드 신호 기반)
+
+## Concept
+surface_claim: 청소년 보호를 위해 연령 인증과 부모 인증을 강화해야 한다.
+implicit_premise: 안전을 위해 사생활과 익명성을 일부 포기하는 것이 개인과 가족의 정상적 비용이다.
+viewer_meta_message: 작성자는 결국 보호 명분으로 감시를 자연스럽게 받아들이는 태도를 보이는구나.
+scene_caption_gap: 밤늦게 앱 사용하려는 청소년에게 가족 단톡으로 인증 링크가 오는 장면 vs '안전한 환경 조성'이라는 캡션
+main_axis: 보호 vs 사생활
+support_axis: 부모 책임 vs 과잉 개입
+background_axis: 플랫폼 vs 사용자 자유
+
+## Likely Comment Axes
+- 안전 비용 지불 vs 일상 불편
+- 부모 보호 vs 청소년 자율
+- 플랫폼 책임 전가 vs 개인 권리
+- 세대 간 신뢰 붕괴
+
+## Story Hook
+청소년이 밤 11시 채팅 앱 열자 가족 단톡에 '보호자 인증 요청' 알림. 부모가 승인. 캡션: '아이들을 안전하게 지키기 위한 작은 불편입니다.'
+
+## 6-Cut Seed
+1. utility — 청소년 앱 실행
+   expected_comments: 이게 정말 보호인가
+2. care — 부모가 링크 확인
+   expected_comments: 부모가 항상 감시해야 하나
+3. authority — 플랫폼이 '안전 정책' 강조
+   expected_comments: 플랫폼이 가족 역할 대신?
+4. intimacy — 가족 대화에서 인증 논쟁
+   expected_comments: 신뢰가 깨지는 순간
+5. aftermath — 청소년이 포기하고 방에 있음
+   expected_comments: 자유 vs 안전 트레이드오프
+6. utility — 통계 그래프 '보호 강화 효과'
+   expected_comments: 실제 효과 vs 체감
+
+## Risk
+risk_note:
+freshness_risk: low
+discard_if: 보호집단 비하가 필요한 경우
+
+## Score
+interpretation_conflict: 8
+rebuttal_pull: 8
+self_projection_pull: 9
+visual_caption_gap: 8
+brand_damage_risk: 3

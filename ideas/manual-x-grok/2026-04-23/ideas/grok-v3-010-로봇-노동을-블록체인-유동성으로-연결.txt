@@ -1,0 +1,56 @@
+# grok-v3-010 — 로봇 노동을 블록체인 유동성으로 연결
+
+source: new_grok_v3
+original_idea_id: grok-010
+time_window_used: 24h
+source_type: x_search
+source_confidence: medium
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+로봇 노동 on-chain liquidity 관련 포스트
+
+## Concept
+surface_claim: 로봇 노동을 블록체인으로 연결해 모두가 보상 받는 투명한 경제를 만든다.
+implicit_premise: 로봇 노동 가치가 인간 노동과 동등하게 금융화/유동화될 수 있으며, 이는 공정하다.
+viewer_meta_message: 작성자는 결국 노동을 '자산'으로 환원하고 인간-로봇 경계를 허무는 걸 긍정적으로 보는구나.
+scene_caption_gap: 로봇이 일하는 공장 장면과 사람들이 로봇 노동 토큰으로 수익 보는 장면
+main_axis: 로봇 노동 가치 vs 인간
+support_axis: 금융화 vs 실질 노동
+background_axis: 투명 vs 착취
+
+## Likely Comment Axes
+- 로봇 노동이 인간 일자리 뺏나
+- 보상 분배 공정성
+- 새 경제 vs 기존 불평등
+- 노동 의미 변화
+
+## Story Hook
+로봇이 작업 후 토큰 분배 화면. 인간 투자자가 수익 확인. 캡션: '로봇이 일할수록 모두가 이득입니다.'
+
+## 6-Cut Seed
+1. utility — 로봇 작업
+   expected_comments: 인간은?
+2. utility — 토큰 생성
+   expected_comments: 노동 금융화
+3. care — 투자자 기뻐함
+   expected_comments: 누구를 위한?
+4. authority — 블록체인 네트워크
+   expected_comments: 통제 주체
+5. aftermath — 로봇 더 많아짐
+   expected_comments: 미래 노동 시장
+6. intimacy — 인간 로봇 공존
+   expected_comments: 관계 재정의
+
+## Risk
+risk_note:
+freshness_risk: low
+discard_if:
+
+## Score
+interpretation_conflict: 8
+rebuttal_pull: 8
+self_projection_pull: 7
+visual_caption_gap: 7
+brand_damage_risk: 4

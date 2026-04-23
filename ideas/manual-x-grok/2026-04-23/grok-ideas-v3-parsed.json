@@ -1,0 +1,1102 @@
+{
+  "run_context": {
+    "run_at_kst": "2026-04-23 19:51:30 KST",
+    "primary_time_window_hours": 48,
+    "market": "Korean X/Twitter first, global X only if Korean-context transferable",
+    "project_intent": "interpretation-collision design, not rage bait"
+  },
+  "suggested_search_queries": [
+    "휴머노이드 로봇 바퀴 OR 범용",
+    "저출생 OR 저출산 논쟁",
+    "AI 광고 제작 OR 이미지2.0 스토리보드",
+    "플랫폼 연령인증 OR 부모 인증",
+    "로봇 돌봄 OR 케어",
+    "KTX AI 대체 OR 안전 자동화"
+  ],
+  "ideas": [
+    {
+      "idea_id": "grok-001",
+      "topic": "휴머노이드 로봇의 '바퀴 옵션'과 범용성 주장",
+      "time_window_used": "24h",
+      "source_type": "x_home_feed",
+      "source_confidence": "high",
+      "observed_signal_on_x": "Unitree Robotics 포스트: '휴머노이드가 범용 로봇의 이상적 형태, 바퀴 없이도 일하지만 원하면 달 수 있음. 효과적인 게 제일'",
+      "surface_claim": "휴머노이드 로봇은 인간 형태가 가장 이상적이며, 필요 시 바퀴를 추가해 효율성을 높일 수 있다.",
+      "implicit_premise": "인간 노동의 '형태'와 역할은 기술적으로 재설계 가능하며, 편의와 효과가 인간성이나 전통 노동 가치를 대체할 수 있다.",
+      "viewer_meta_message": "작성자는 결국 인간을 '효율 도구'로 환원해서 보는구나, 로봇이 인간을 따라잡는 게 아니라 인간 형태를 빌려 더 나아지는 걸 당연시하는구나.",
+      "scene_caption_gap": "로봇이 인간처럼 서 있지만 '바퀴 달아도 된다'는 실용적 유연성 vs 장면에서 드러나는 인간 노동 대체의 불편한 유사성",
+      "main_axis": "편의 vs 인간 노동 가치",
+      "support_axis": "기술 진보 vs 역할 상실",
+      "background_axis": "효율 vs 정체성",
+      "likely_comment_axes": [
+        "로봇이 인간 일자리 대체 vs 인간 창의성 우위",
+        "효율 최우선 사회에서 인간성은 부가적 vs 기본",
+        "바퀴 옵션처럼 노동 조건도 쉽게 바꿀 수 있다는 암묵 수용 vs 저항",
+        "범용 로봇이 케어/친밀 노동까지 침투할 미래"
+      ],
+      "expected_comment_archetypes": [
+        "논리 교정형",
+        "존재론 방어형",
+        "욕망/소비형",
+        "젠더/세대 해석형"
+      ],
+      "scene_hook": "공장이나 가정에서 휴머노이드가 인간처럼 물건을 나르다, 갑자기 바퀴를 달고 빠르게 이동하는 장면. 캡션: '효과적인 게 제일이죠. 인간 형태는 이상적이지만, 실용이 우선입니다.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "로봇이 인간처럼 서서 조립 작업",
+          "expected_comments": [
+            "인간 노동을 그대로 모방하는 게 왜 필요할까"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "로봇이 바퀴 모드로 전환해 빠르게 이동",
+          "expected_comments": [
+            "효율 좋네 vs 인간은 이런 유연성 없어"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "로봇이 노인에게 물건 건네며 미소",
+          "expected_comments": [
+            "케어 노동까지 로봇이? 감정은?"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "authority",
+          "scene": "회사 대표가 로봇을 지시하는 모습",
+          "expected_comments": [
+            "인간 상사 역할도 대체 가능?"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "intimacy",
+          "scene": "로봇과 사람이 대화하며 휴식",
+          "expected_comments": [
+            "친밀감은 인간만의 것인가"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "aftermath",
+          "scene": "빈 작업장에서 로봇만 남아 작동",
+          "expected_comments": [
+            "인간 없는 미래가 편할까 불편할까"
+          ]
+        }
+      ],
+      "risk_note": "로봇 자체 비하 없음, 노동 가치 재계산에 초점",
+      "discard_if": [
+        "작성자 조롱만 남는 경우",
+        "허위 사실 단정이 필요한 경우"
+      ],
+      "freshness_risk": "low",
+      "why_useful_for_noise_pipeline": "기술 편의와 인간 역할의 숨은 거래(인간 형태 빌리기 vs 인간성 희석)를 한 장면에 압축, 최소 4개 댓글축(노동/케어/친밀/미래) 예상",
+      "score": {
+        "interpretation_conflict": 9,
+        "rebuttal_pull": 8,
+        "self_projection_pull": 8,
+        "visual_caption_gap": 9,
+        "brand_damage_risk": 3
+      }
+    },
+    {
+      "idea_id": "grok-002",
+      "topic": "AI 이미지/비디오 생성 워크플로우의 창작 민주화",
+      "time_window_used": "48h",
+      "source_type": "x_home_feed",
+      "source_confidence": "high",
+      "observed_signal_on_x": "GPT image-2 + Seedance2.0으로 3x3 스토리보드 제작 후 비디오 변환, 프롬프트 서툴러도 실패 적음 관련 포스트",
+      "surface_claim": "제품 사진 한 장이나 간단 스토리보드로 전문가 없이 고품질 광고/영상을 만들 수 있다.",
+      "implicit_premise": "창작 가치와 전문성은 도구 조합의 속도와 편의로 재계산될 수 있으며, 개인/소상공인이 전문 팀을 대체 가능하다.",
+      "viewer_meta_message": "작성자는 결국 '누구나 창작자'라는 민주화를 말하지만, 전문가의 감각과 경험을 도구로 환원하는 걸 당연하게 여기는구나.",
+      "scene_caption_gap": "동네 가게 사장이 AI로 멋진 광고 만드는 장면 vs 옆에서 지켜보는 디자이너의 표정에 드러나는 전문성 평가절하",
+      "main_axis": "민주화 vs 전문성",
+      "support_axis": "속도 vs 감각",
+      "background_axis": "취향 vs 자동화",
+      "likely_comment_axes": [
+        "소상공인 기회 확대 vs 직업 대체",
+        "프롬프트만 잘 쓰면 된다는 속도 숭배 vs 깊이 있는 창작 가치",
+        "AI가 인간 취향을 배우는 과정에서 창의성 희석",
+        "콘텐츠 과잉 시대의 질 vs 양"
+      ],
+      "expected_comment_archetypes": [
+        "논리 교정형",
+        "욕망/소비형",
+        "존재론 방어형"
+      ],
+      "scene_hook": "작은 가게 사장이 고양이 사료 사진 하나로 AI 스토리보드 만들어 영상 완성. 옆 디자이너가 조용히 지켜봄. 캡션: '프롬프트 서툴러도 문제없어요. 이제 누구나 광고 제작자입니다.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "사장이 사진 찍음",
+          "expected_comments": [
+            "이제 사진만 찍으면 끝?"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "AI가 3x3 그리드 생성",
+          "expected_comments": [
+            "도구가 창의성을 대신하나"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "사장이 가족에게 영상 보여줌",
+          "expected_comments": [
+            "개인화된 콘텐츠가 진짜 감동 줄까"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "authority",
+          "scene": "디자이너가 기존 작업물 비교",
+          "expected_comments": [
+            "전문가 역할은?"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "intimacy",
+          "scene": "로봇/AI가 '창작' 도와주는 듯한 장면",
+          "expected_comments": [
+            "AI와의 협업이 친밀할까"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "aftermath",
+          "scene": "소셜에 업로드된 영상 폭발적 조회",
+          "expected_comments": [
+            "양적 성공 vs 질적 공허"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [
+        "허위 사실 단정이 필요한 경우"
+      ],
+      "freshness_risk": "low",
+      "why_useful_for_noise_pipeline": "AI 자동화가 노동/취향/전문성 가치를 재계산하는 전형적 사례, 댓글에서 자기 경험(디자이너/소상공인) 투사 강함",
+      "score": {
+        "interpretation_conflict": 8,
+        "rebuttal_pull": 9,
+        "self_projection_pull": 9,
+        "visual_caption_gap": 8,
+        "brand_damage_risk": 4
+      }
+    },
+    {
+      "idea_id": "grok-003",
+      "topic": "저출생/저출산 용어 순화와 현실 회피",
+      "time_window_used": "7d",
+      "source_type": "x_search",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "저출생 용어 사용 논란 지속 신호(과거 사례 재인용 및 최근 관련 포스트)",
+      "surface_claim": "저출산 대신 저출생으로 용어를 바꾸면 문제에 대한 감수성을 높이고 배려할 수 있다.",
+      "implicit_premise": "사회 문제의 본질을 고치기 전에 언어를 순화함으로써 불편함과 책임감을 조절할 수 있으며, 이는 긍정적 변화다.",
+      "viewer_meta_message": "작성자는 결국 현실 숫자나 정책 대신 단어 선택으로 문제를 '관리'하려는 태도를 드러내는구나.",
+      "scene_caption_gap": "회의실에서 보고서 '저출산'을 '저출생'으로 일괄 수정하지만, 그래프의 출생 수치는 그대로인 장면",
+      "main_axis": "언어 배려 vs 현실 직시",
+      "support_axis": "감수성 vs 정책 부재",
+      "background_axis": "행정 보여주기 vs 실제 해결",
+      "likely_comment_axes": [
+        "단어 바꾸기가 진짜 해결 vs 왜곡",
+        "여성/가족 역할 재정의 논쟁",
+        "세대 간 체감 현실 차이",
+        "국가 vs 개인 책임 전가"
+      ],
+      "expected_comment_archetypes": [
+        "논리 교정형",
+        "젠더/세대/계급 해석형",
+        "존재론 방어형"
+      ],
+      "scene_hook": "공무원이 보고서에서 '저출산'을 모두 '저출생'으로 바꾸는 장면. 그래프는 변함없음. 캡션: '용어를 바꾸는 것부터 시작합시다. 더 포용적인 사회를 위해.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "담당자 키보드 치며 용어 수정",
+          "expected_comments": [
+            "단어 바꾼다고 출생 늘어나?"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "그래프 그대로인 화면",
+          "expected_comments": [
+            "현실 데이터는 안 건드리네"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "부모 세대가 보고서 보며 한숨",
+          "expected_comments": [
+            "우리 세대는 어땠는데"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "authority",
+          "scene": "상급자가 '좋은 변화'라고 칭찬",
+          "expected_comments": [
+            "정책 대신 말장난"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "intimacy",
+          "scene": "젊은 커플이 용어 논쟁하며 대화",
+          "expected_comments": [
+            "결혼/출산 결정에 영향?"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "aftermath",
+          "scene": "빈 회의실에 수정된 보고서만",
+          "expected_comments": [
+            "언어 순화로 끝나는 사회"
+          ]
+        }
+      ],
+      "risk_note": "기존 논쟁 재활용이지만 한국 맥락 강함",
+      "discard_if": [
+        "보호집단 비하가 필요한 경우"
+      ],
+      "freshness_risk": "medium",
+      "why_useful_for_noise_pipeline": "언어 순화와 현실 회피 충돌의 전형, 댓글에서 세계관(책임/감수성/정책) 확장 강함",
+      "score": {
+        "interpretation_conflict": 9,
+        "rebuttal_pull": 8,
+        "self_projection_pull": 8,
+        "visual_caption_gap": 9,
+        "brand_damage_risk": 2
+      }
+    },
+    {
+      "idea_id": "grok-004",
+      "topic": "플랫폼 연령 인증과 부모/가족 감시",
+      "time_window_used": "48h",
+      "source_type": "grok_synthesis",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "한국 플랫폼 안전/인증 관련 지속 논의(홈피드 신호 기반)",
+      "surface_claim": "청소년 보호를 위해 연령 인증과 부모 인증을 강화해야 한다.",
+      "implicit_premise": "안전을 위해 사생활과 익명성을 일부 포기하는 것이 개인과 가족의 정상적 비용이다.",
+      "viewer_meta_message": "작성자는 결국 보호 명분으로 감시를 자연스럽게 받아들이는 태도를 보이는구나.",
+      "scene_caption_gap": "밤늦게 앱 사용하려는 청소년에게 가족 단톡으로 인증 링크가 오는 장면 vs '안전한 환경 조성'이라는 캡션",
+      "main_axis": "보호 vs 사생활",
+      "support_axis": "부모 책임 vs 과잉 개입",
+      "background_axis": "플랫폼 vs 사용자 자유",
+      "likely_comment_axes": [
+        "안전 비용 지불 vs 일상 불편",
+        "부모 보호 vs 청소년 자율",
+        "플랫폼 책임 전가 vs 개인 권리",
+        "세대 간 신뢰 붕괴"
+      ],
+      "expected_comment_archetypes": [
+        "논리 교정형",
+        "젠더/세대 해석형",
+        "존재론 방어형"
+      ],
+      "scene_hook": "청소년이 밤 11시 채팅 앱 열자 가족 단톡에 '보호자 인증 요청' 알림. 부모가 승인. 캡션: '아이들을 안전하게 지키기 위한 작은 불편입니다.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "청소년 앱 실행",
+          "expected_comments": [
+            "이게 정말 보호인가"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "care",
+          "scene": "부모가 링크 확인",
+          "expected_comments": [
+            "부모가 항상 감시해야 하나"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "authority",
+          "scene": "플랫폼이 '안전 정책' 강조",
+          "expected_comments": [
+            "플랫폼이 가족 역할 대신?"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "intimacy",
+          "scene": "가족 대화에서 인증 논쟁",
+          "expected_comments": [
+            "신뢰가 깨지는 순간"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "aftermath",
+          "scene": "청소년이 포기하고 방에 있음",
+          "expected_comments": [
+            "자유 vs 안전 트레이드오프"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "utility",
+          "scene": "통계 그래프 '보호 강화 효과'",
+          "expected_comments": [
+            "실제 효과 vs 체감"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [
+        "보호집단 비하가 필요한 경우"
+      ],
+      "freshness_risk": "low",
+      "why_useful_for_noise_pipeline": "안전 명분과 자율성 충돌, 가족 내 암묵 계약 드러남. 댓글축 다양",
+      "score": {
+        "interpretation_conflict": 8,
+        "rebuttal_pull": 8,
+        "self_projection_pull": 9,
+        "visual_caption_gap": 8,
+        "brand_damage_risk": 3
+      }
+    },
+    {
+      "idea_id": "grok-005",
+      "topic": "로봇/ AI를 활용한 노인 케어와 인간 돌봄 가치",
+      "time_window_used": "48h",
+      "source_type": "grok_synthesis",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "휴머노이드 로봇 관련 포스트에서 케어 확장 가능성 암시",
+      "surface_claim": "로봇이 노인 돌봄을 효율적으로 담당할 수 있어 가족 부담을 줄인다.",
+      "implicit_premise": "돌봄 노동은 감정적 친밀성보다 기능적 효율이 더 중요하며, 인간 대신 로봇으로 대체 가능하다.",
+      "viewer_meta_message": "작성자는 결국 케어를 '서비스'로 환원하고 인간 관계의 대체를 자연스럽게 여기는구나.",
+      "scene_caption_gap": "로봇이 노인과 대화하며 약 주고 식사 돕는 따뜻한 장면 vs '인간 노동 대체로 가족 자유 증대' 캡션",
+      "main_axis": "효율 케어 vs 감정 케어",
+      "support_axis": "가족 부담 vs 인간성",
+      "background_axis": "기술 vs 관계",
+      "likely_comment_axes": [
+        "로봇 돌봄이 진짜 케어인가 vs 외로움 해결",
+        "자녀 세대 책임 회피 vs 현실적 선택",
+        "로봇과 인간의 친밀성 차이",
+        "고령 사회 비용 분담"
+      ],
+      "expected_comment_archetypes": [
+        "존재론 방어형",
+        "논리 교정형",
+        "세대 해석형"
+      ],
+      "scene_hook": "로봇이 할머니와 산책하며 이야기. 가족은 여행 중. 캡션: '로봇이 24시간 케어해드려요. 가족은 더 자유롭게 생활하세요.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "로봇 약 챙김",
+          "expected_comments": [
+            "정확하지만 따뜻함은?"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "care",
+          "scene": "로봇과 노인 대화",
+          "expected_comments": [
+            "로봇이 공감할 수 있나"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "intimacy",
+          "scene": "로봇이 손 잡음",
+          "expected_comments": [
+            "인간 가족과의 차이"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "authority",
+          "scene": "의료 기관 추천",
+          "expected_comments": [
+            "기술이 가족 역할 대체"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "aftermath",
+          "scene": "가족 귀환 후 로봇과 노인",
+          "expected_comments": [
+            "관계 변화"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "utility",
+          "scene": "통계 '케어 비용 절감'",
+          "expected_comments": [
+            "인간 가치 손실"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [
+        "보호집단 비하가 필요한 경우"
+      ],
+      "freshness_risk": "low",
+      "why_useful_for_noise_pipeline": "케어/친밀성에서 편의가 넘어가는 지점, 관계·역할 거래 조건 드러남",
+      "score": {
+        "interpretation_conflict": 9,
+        "rebuttal_pull": 8,
+        "self_projection_pull": 8,
+        "visual_caption_gap": 9,
+        "brand_damage_risk": 3
+      }
+    },
+    {
+      "idea_id": "grok-006",
+      "topic": "KTX 등 안전 업무의 AI/자동화 대체 논의",
+      "time_window_used": "24h",
+      "source_type": "x_search",
+      "source_confidence": "high",
+      "observed_signal_on_x": "KTX 관련 대참사 우려 포스트에서 'AI 대체' 댓글 등장",
+      "surface_claim": "인간 오류로 인한 사고를 막기 위해 안전 업무를 AI나 자동화로 대체해야 한다.",
+      "implicit_premise": "인간 노동의 실수는 용납 불가하나, 자동화의 한계나 새로운 위험은 덜 논의되며 효율이 우선이다.",
+      "viewer_meta_message": "작성자는 결국 인간 노동자를 '위험 요인'으로 보고 기술로 교체하는 걸 당연시하는구나.",
+      "scene_caption_gap": "KTX 기관사 자는 장면 모사 vs AI 시스템이 완벽히 제어하는 장면, 캡션: '인간 피로를 없애 안전을 높이자'",
+      "main_axis": "안전 vs 인간 노동",
+      "support_axis": "자동화 vs 전문성",
+      "background_axis": "비용 vs 신뢰",
+      "likely_comment_axes": [
+        "AI가 정말 100% 안전한가 vs 인간 판단력",
+        "일자리 대체 vs 생명 보호",
+        "노동자 vs 승객 관점 차이",
+        "자동화 사회의 새로운 리스크"
+      ],
+      "expected_comment_archetypes": [
+        "논리 교정형",
+        "존재론 방어형"
+      ],
+      "scene_hook": "KTX 운행 중 인간 기관사가 피곤해하는 장면과 AI가 대신 제어하는 장면 병치. 캡션: 'AI로 대체하면 대참사를 막을 수 있습니다.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "인간 기관사 피로",
+          "expected_comments": [
+            "인간 오류 위험"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "authority",
+          "scene": "AI 시스템 개입",
+          "expected_comments": [
+            "AI 판단 신뢰?"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "승객 안전 강조",
+          "expected_comments": [
+            "승객 vs 노동자"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "utility",
+          "scene": "자동화 후 빈 운전석",
+          "expected_comments": [
+            "인간 역할 사라짐"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "aftermath",
+          "scene": "사고 없는 운행",
+          "expected_comments": [
+            "완벽 vs 공허"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "intimacy",
+          "scene": "노동자 가족 반응",
+          "expected_comments": [
+            "가족에게 미치는 영향"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [
+        "특정 개인 공격이 필요한 경우"
+      ],
+      "freshness_risk": "low",
+      "why_useful_for_noise_pipeline": "안전 명분으로 자동화가 노동 가치를 재정의, 반박과 자기경험 댓글 유발",
+      "score": {
+        "interpretation_conflict": 8,
+        "rebuttal_pull": 9,
+        "self_projection_pull": 7,
+        "visual_caption_gap": 8,
+        "brand_damage_risk": 4
+      }
+    },
+    {
+      "idea_id": "grok-007",
+      "topic": "소비 트렌드 속 '제로클릭'과 계급/자기기만",
+      "time_window_used": "7d",
+      "source_type": "grok_synthesis",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "트렌드 코리아 2026 키워드 관련 간접 신호",
+      "surface_claim": "AI가 소비 여정을 예측해 제로클릭(클릭 없이 구매)으로 편의를 제공한다.",
+      "implicit_premise": "소비는 개인 취향 표현이지만, 알고리즘/자동화가 대신 결정하는 게 더 나은 선택이며 계급적 소비 감각을 숨긴다.",
+      "viewer_meta_message": "작성자는 결국 편의 뒤에 숨은 자기기만과 계급 신호를 무시하는구나.",
+      "scene_caption_gap": "사용자가 아무것도 안 했는데 AI가 '필요한' 물건 배송 완료 장면 vs '당신의 취향을 완벽히 이해한 서비스' 캡션",
+      "main_axis": "편의 vs 자기 통제",
+      "support_axis": "알고리즘 vs 진짜 욕망",
+      "background_axis": "계급 vs 민주적 소비",
+      "likely_comment_axes": [
+        "AI가 진짜 취향 아나 vs 조작",
+        "편의가 자유인가 속박인가",
+        "부유층 vs 일반 소비자 차이",
+        "소비를 통한 자기표현 상실"
+      ],
+      "expected_comment_archetypes": [
+        "욕망/소비형",
+        "논리 교정형"
+      ],
+      "scene_hook": "사용자가 잠든 사이 AI가 추천 상품 자동 구매·배송. 아침에 상자 열어보는 장면. 캡션: '생각할 필요 없이 완벽한 소비 라이프.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "AI 데이터 분석",
+          "expected_comments": [
+            "데이터가 나를 아나"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "자동 구매",
+          "expected_comments": [
+            "편하지만 통제 상실"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "배송 도착 알림",
+          "expected_comments": [
+            "필요했던 건가?"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "intimacy",
+          "scene": "사용자 상자 열음",
+          "expected_comments": [
+            "자기기만"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "aftermath",
+          "scene": "쌓이는 물건",
+          "expected_comments": [
+            "계급적 과소비"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "authority",
+          "scene": "플랫폼 '만족도 99%'",
+          "expected_comments": [
+            "진짜 만족?"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [],
+      "freshness_risk": "medium",
+      "why_useful_for_noise_pipeline": "가벼운 소비 이슈에 계급감각과 자기기만 드러남",
+      "score": {
+        "interpretation_conflict": 7,
+        "rebuttal_pull": 7,
+        "self_projection_pull": 8,
+        "visual_caption_gap": 8,
+        "brand_damage_risk": 5
+      }
+    },
+    {
+      "idea_id": "grok-008",
+      "topic": "AI 에이전트 신뢰와 플랫폼 의존 탈피",
+      "time_window_used": "48h",
+      "source_type": "x_search",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "AI 에이전트 신뢰 구조 관련 글로벌 포스트 한국어 맥락 전환 가능",
+      "surface_claim": "플랫폼이 인증해주는 신뢰 대신 개인/AI 에이전트가 portable trust를 가져야 한다.",
+      "implicit_premise": "현재 플랫폼 중개 신뢰는 불완전하며, 개인이 직접 증명하는 구조로 이동하면 권력 분산이 일어난다.",
+      "viewer_meta_message": "작성자는 결국 플랫폼 권력을 비판하지만, 새로운 신뢰 시스템에서 생기는 불평등이나 혼란을 과소평가하는구나.",
+      "scene_caption_gap": "플랫폼 계정 정지로 신뢰 사라지는 사람 vs 블록체인으로 자기 증명하는 AI 에이전트 장면",
+      "main_axis": "플랫폼 신뢰 vs 개인 신뢰",
+      "support_axis": "중개 vs 직접",
+      "background_axis": "권력 vs 자율",
+      "likely_comment_axes": [
+        "플랫폼 탈피 현실성 vs 위험",
+        "AI 에이전트 신뢰 어떻게 보장",
+        "개인 vs 기업 불평등 확대",
+        "새로운 사기 형태 등장"
+      ],
+      "expected_comment_archetypes": [
+        "논리 교정형",
+        "존재론 방어형"
+      ],
+      "scene_hook": "링크드인 계정 정지로 모든 연결 끊기는 장면과, 자기 증명 AI가 어디서나 활동하는 장면. 캡션: '신뢰를 플랫폼에 빌리지 말고 내가 소유하자.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "authority",
+          "scene": "플랫폼 인증",
+          "expected_comments": [
+            "플랫폼이 신뢰 주인"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "계정 정지",
+          "expected_comments": [
+            "모든 게 사라짐"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "intimacy",
+          "scene": "개인 증명 설정",
+          "expected_comments": [
+            "자기 증명이 진짜?"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "utility",
+          "scene": "AI 에이전트 활동",
+          "expected_comments": [
+            "AI가 나를 대신"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "aftermath",
+          "scene": "새로운 거래 성공",
+          "expected_comments": [
+            "자유 vs 불안"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "care",
+          "scene": "커뮤니티 반응",
+          "expected_comments": [
+            "누가 이득?"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [],
+      "freshness_risk": "low",
+      "why_useful_for_noise_pipeline": "플랫폼 암묵 계약과 자율성 충돌, 미래 지향적 논쟁 유발",
+      "score": {
+        "interpretation_conflict": 8,
+        "rebuttal_pull": 8,
+        "self_projection_pull": 7,
+        "visual_caption_gap": 7,
+        "brand_damage_risk": 4
+      }
+    },
+    {
+      "idea_id": "grok-009",
+      "topic": "팬덤 콘텐츠 소비와 AI 생성 vs 진짜 감정",
+      "time_window_used": "7d",
+      "source_type": "grok_synthesis",
+      "source_confidence": "low",
+      "observed_signal_on_x": "K-팝 팬덤 문화 지속 신호",
+      "surface_claim": "AI로 아이돌 콘텐츠를 무한 생성해 팬 경험을 강화한다.",
+      "implicit_premise": "팬덤의 감정적 만족은 진짜 인간 아티스트보다 AI 생성물로도 충분히 충족될 수 있다.",
+      "viewer_meta_message": "작성자는 결국 팬덤 관계를 소비/생산 도구로 보는구나.",
+      "scene_caption_gap": "팬이 AI 생성 아이돌 영상에 열광하는 장면 vs 실제 콘서트 빈자리 암시",
+      "main_axis": "가상 친밀 vs 진짜 관계",
+      "support_axis": "편의 vs 진정성",
+      "background_axis": "소비 vs 헌신",
+      "likely_comment_axes": [
+        "AI 아이돌이 진짜 팬덤인가",
+        "아티스트 노동 가치",
+        "팬덤 내 계급/자기기만",
+        "미래 엔터 산업 변화"
+      ],
+      "expected_comment_archetypes": [
+        "욕망/소비형",
+        "존재론 방어형"
+      ],
+      "scene_hook": "팬이 AI로 만든 아이돌 직캠에 댓글 폭발. 실제 아이돌은 피곤한 모습. 캡션: '언제 어디서나 완벽한 팬 서비스.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "intimacy",
+          "scene": "AI 아이돌 미소",
+          "expected_comments": [
+            "이게 진짜 감정?"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "팬 댓글 달음",
+          "expected_comments": [
+            "편하지만 공허"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "실제 아티스트 휴식",
+          "expected_comments": [
+            "인간 vs AI"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "aftermath",
+          "scene": "팬덤 통계 상승",
+          "expected_comments": [
+            "숫자 vs 질"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "authority",
+          "scene": "엔터사 AI 도입",
+          "expected_comments": [
+            "산업 변화"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "intimacy",
+          "scene": "팬 혼자 영상 봄",
+          "expected_comments": [
+            "외로움 해소?"
+          ]
+        }
+      ],
+      "risk_note": "특정 팬덤 비하 피함",
+      "discard_if": [
+        "특정 개인 공격이 필요한 경우"
+      ],
+      "freshness_risk": "medium",
+      "why_useful_for_noise_pipeline": "팬덤 내 암묵 계약(진정성 vs 소비) 드러남",
+      "score": {
+        "interpretation_conflict": 7,
+        "rebuttal_pull": 7,
+        "self_projection_pull": 8,
+        "visual_caption_gap": 8,
+        "brand_damage_risk": 5
+      }
+    },
+    {
+      "idea_id": "grok-010",
+      "topic": "로봇 노동을 블록체인 유동성으로 연결",
+      "time_window_used": "24h",
+      "source_type": "x_search",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "로봇 노동 on-chain liquidity 관련 포스트",
+      "surface_claim": "로봇 노동을 블록체인으로 연결해 모두가 보상 받는 투명한 경제를 만든다.",
+      "implicit_premise": "로봇 노동 가치가 인간 노동과 동등하게 금융화/유동화될 수 있으며, 이는 공정하다.",
+      "viewer_meta_message": "작성자는 결국 노동을 '자산'으로 환원하고 인간-로봇 경계를 허무는 걸 긍정적으로 보는구나.",
+      "scene_caption_gap": "로봇이 일하는 공장 장면과 사람들이 로봇 노동 토큰으로 수익 보는 장면",
+      "main_axis": "로봇 노동 가치 vs 인간",
+      "support_axis": "금융화 vs 실질 노동",
+      "background_axis": "투명 vs 착취",
+      "likely_comment_axes": [
+        "로봇 노동이 인간 일자리 뺏나",
+        "보상 분배 공정성",
+        "새 경제 vs 기존 불평등",
+        "노동 의미 변화"
+      ],
+      "expected_comment_archetypes": [
+        "논리 교정형",
+        "욕망/소비형"
+      ],
+      "scene_hook": "로봇이 작업 후 토큰 분배 화면. 인간 투자자가 수익 확인. 캡션: '로봇이 일할수록 모두가 이득입니다.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "로봇 작업",
+          "expected_comments": [
+            "인간은?"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "토큰 생성",
+          "expected_comments": [
+            "노동 금융화"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "투자자 기뻐함",
+          "expected_comments": [
+            "누구를 위한?"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "authority",
+          "scene": "블록체인 네트워크",
+          "expected_comments": [
+            "통제 주체"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "aftermath",
+          "scene": "로봇 더 많아짐",
+          "expected_comments": [
+            "미래 노동 시장"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "intimacy",
+          "scene": "인간 로봇 공존",
+          "expected_comments": [
+            "관계 재정의"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [],
+      "freshness_risk": "low",
+      "why_useful_for_noise_pipeline": "AI/자동화 노동 가치 재계산 이슈 강함",
+      "score": {
+        "interpretation_conflict": 8,
+        "rebuttal_pull": 8,
+        "self_projection_pull": 7,
+        "visual_caption_gap": 7,
+        "brand_damage_risk": 4
+      }
+    },
+    {
+      "idea_id": "grok-011",
+      "topic": "청년 경제활동 하락과 AI/자동화 영향",
+      "time_window_used": "7d",
+      "source_type": "web_search",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "한국 청년 경제활동 참가율 하락 및 AI 대체 논의",
+      "surface_claim": "AI 도입으로 일부 업무가 대체되지만, 새로운 기회가 생긴다.",
+      "implicit_premise": "청년 노동 참여 감소는 기술 진보의 자연스러운 과정이며, 개인 적응이 해결책이다.",
+      "viewer_meta_message": "작성자는 결국 구조적 문제를 개인/기술 탓으로 돌리는구나.",
+      "scene_caption_gap": "청년이 구직 포기하는 장면과 AI 로봇이 일하는 공장 병치, 캡션: 'AI가 미래 일자리를 창출합니다.'",
+      "main_axis": "기술 진보 vs 청년 현실",
+      "support_axis": "적응 vs 구조",
+      "background_axis": "세대 계급",
+      "likely_comment_axes": [
+        "AI가 일자리 없애는가 창출하는가",
+        "청년 포기 이유(계급/교육)",
+        "정부 정책 vs 시장",
+        "미래 노동 의미"
+      ],
+      "expected_comment_archetypes": [
+        "젠더/세대/계급 해석형",
+        "논리 교정형"
+      ],
+      "scene_hook": "청년이 면접 떨어지는 장면과 공장에서 AI가 대신 일하는 장면. 캡션: '변화에 적응하는 청년이 승자입니다.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "utility",
+          "scene": "청년 구직",
+          "expected_comments": [
+            "기회 부족"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "authority",
+          "scene": "AI 도입 기업",
+          "expected_comments": [
+            "대체 속도"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "aftermath",
+          "scene": "청년 빈자리",
+          "expected_comments": [
+            "포기 세대"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "care",
+          "scene": "가족 걱정",
+          "expected_comments": [
+            "세대 부담"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "utility",
+          "scene": "새 AI 직업 훈련",
+          "expected_comments": [
+            "누구나 가능한가"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "intimacy",
+          "scene": "청년 자기반성",
+          "expected_comments": [
+            "자기기만 vs 현실"
+          ]
+        }
+      ],
+      "risk_note": "",
+      "discard_if": [
+        "보호집단 비하가 필요한 경우"
+      ],
+      "freshness_risk": "medium",
+      "why_useful_for_noise_pipeline": "노동·취향·전문성 재계산과 세대 세계관 충돌",
+      "score": {
+        "interpretation_conflict": 8,
+        "rebuttal_pull": 8,
+        "self_projection_pull": 9,
+        "visual_caption_gap": 8,
+        "brand_damage_risk": 3
+      }
+    },
+    {
+      "idea_id": "grok-012",
+      "topic": "가족 내 출산 조건 '계약서'와 암묵 거래",
+      "time_window_used": "7d",
+      "source_type": "x_search",
+      "source_confidence": "medium",
+      "observed_signal_on_x": "출산 조건 계약서 사연 관련 논란 신호",
+      "surface_claim": "맞벌이 부부가 출산을 조건으로 명확한 계약을 맺는 것은 합리적 선택이다.",
+      "implicit_premise": "가족/연애 관계에서 출산은 감정적 결정이 아닌 조건 거래이며, 이를 문서화하는 게 공정하다.",
+      "viewer_meta_message": "작성자는 결국 가족을 '계약 당사자'로 환원하고 감정/가치의 숨은 거래를 드러내는구나.",
+      "scene_caption_gap": "커플이 테이블에 출산 조건 목록 적는 장면 vs 로맨틱한 결혼 사진 배경",
+      "main_axis": "관계 거래 vs 감정",
+      "support_axis": "현실 vs 이상",
+      "background_axis": "저출생 사회 압력",
+      "likely_comment_axes": [
+        "계약서가 가족 파탄 vs 솔직함",
+        "성역할/젠더 논쟁",
+        "저출생 핑계 vs 개인 선택",
+        "세대 경험 차이"
+      ],
+      "expected_comment_archetypes": [
+        "젠더/세대 해석형",
+        "존재론 방어형",
+        "논리 교정형"
+      ],
+      "scene_hook": "신혼 부부가 '출산 조건 계약서' 작성 중. 한쪽이 서명. 캡션: '현실적으로 출산 계획 세우는 스마트 커플.'",
+      "storyboard_seed": [
+        {
+          "cut": 1,
+          "function": "intimacy",
+          "scene": "커플 대화",
+          "expected_comments": [
+            "사랑 vs 거래"
+          ]
+        },
+        {
+          "cut": 2,
+          "function": "utility",
+          "scene": "조건 목록 작성",
+          "expected_comments": [
+            "명확하지만 차갑다"
+          ]
+        },
+        {
+          "cut": 3,
+          "function": "care",
+          "scene": "미래 아이 상상",
+          "expected_comments": [
+            "아이 입장"
+          ]
+        },
+        {
+          "cut": 4,
+          "function": "authority",
+          "scene": "법률 자문",
+          "expected_comments": [
+            "사회 압력"
+          ]
+        },
+        {
+          "cut": 5,
+          "function": "aftermath",
+          "scene": "계약 후 생활",
+          "expected_comments": [
+            "지속 가능?"
+          ]
+        },
+        {
+          "cut": 6,
+          "function": "intimacy",
+          "scene": "감정 충돌 순간",
+          "expected_comments": [
+            "암묵 계약 깨짐"
+          ]
+        }
+      ],
+      "risk_note": "노골적 성적화 피함",
+      "discard_if": [
+        "보호집단 비하가 필요한 경우"
+      ],
+      "freshness_risk": "medium",
+      "why_useful_for_noise_pipeline": "가족·연애 내 암묵적 계약 드러남, 다양한 세계관 댓글 유발",
+      "score": {
+        "interpretation_conflict": 9,
+        "rebuttal_pull": 9,
+        "self_projection_pull": 9,
+        "visual_caption_gap": 9,
+        "brand_damage_risk": 2
+      }
+    }
+  ],
+  "top_picks": [
+    {
+      "idea_id": "grok-001",
+      "reason": "홈피드 직접 신호 기반, 기술 편의와 인간 역할 충돌 강력. 댓글축 4+ 예상, 시각적 갭 뚜렷"
+    },
+    {
+      "idea_id": "grok-003",
+      "reason": "한국 사회 깊이 뿌리박힌 언어 vs 현실 논쟁. 단어 하나로 가치관·정책·체감 건드림"
+    },
+    {
+      "idea_id": "grok-012",
+      "reason": "가족 내 거래 조건 직격, 저출생 맥락과 연결되어 자기경험·세대 해석 폭발적"
+    }
+  ]
+}

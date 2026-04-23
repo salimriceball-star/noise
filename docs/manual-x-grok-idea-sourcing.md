@@ -88,3 +88,34 @@ After prompt-engineering reinforcement, 3 additional candidates were generated u
 - `/home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/v2-001-age-verification-family-privacy.txt`
 - `/home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/v2-002-ai-ad-labor-value.txt`
 - `/home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/v2-003-lowbirth-language-reality.txt`
+
+## Follow-up run: v3 refreshed Grok response and image candidates
+
+Run timestamp: 2026-04-23 20:03 KST
+
+Reason:
+- The previous post-prompt-engineering candidates were based on the reinforced prompt, but the user requested a fresh Grok response with the updated prompt and image candidate outputs.
+
+Fresh inputs saved:
+- X home capture: `/home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/x-home-capture-v3.json`
+- Concrete prompt: `/home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt`
+- Grok capture: `/home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-response-v3-capture.json`
+- Grok raw text: `/home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-response-v3-raw.txt`
+- Parsed JSON: `/home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-ideas-v3-parsed.json`
+
+Observed home-feed signals included Unitree humanoid robot/wheel discussion and GPT image-2 + Seedance storyboard workflow discussion. Grok returned 12 valid ideas; the new idea files were stored as `grok-v3-001` through `grok-v3-012` under the date-stamped `ideas/` directory. `idea-status.tsv` and `idea-log.jsonl` were updated.
+
+All-ideas synthesis outputs:
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-all-ideas-v3/README.txt`
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-all-ideas-v3/v3-001-humanoid-wheel-care-labor.txt`
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-all-ideas-v3/v3-002-ai-storyboard-labor-value.txt`
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-all-ideas-v3/v3-003-birth-contract-language-reality.txt`
+
+Image generation note:
+- GUIVM was still occupied by `/home/vboxuser/ai_persona/.local/stockpile_persona_pipeline.py --days 8`.
+- Hermes `image_generate` was attempted as the requested image-tool fallback, but the tool failed with `FAL_KEY environment variable not set`.
+- To still produce image artifacts and paths, local storyboard concept-sheet PNG fallbacks were generated from the synthesized candidates:
+  - `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-local-storyboard-v3/v3-001-humanoid-wheel-care-labor.png`
+  - `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-local-storyboard-v3/v3-002-ai-storyboard-labor-value.png`
+  - `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-local-storyboard-v3/v3-003-birth-contract-language-reality.png`
+- The image directory also contains GPT image-2 prompt files and `manifest.json` for reproducibility.

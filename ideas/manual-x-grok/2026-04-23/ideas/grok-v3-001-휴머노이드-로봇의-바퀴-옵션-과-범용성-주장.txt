@@ -1,0 +1,56 @@
+# grok-v3-001 — 휴머노이드 로봇의 '바퀴 옵션'과 범용성 주장
+
+source: new_grok_v3
+original_idea_id: grok-001
+time_window_used: 24h
+source_type: x_home_feed
+source_confidence: high
+status: storyboarded
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+Unitree Robotics 포스트: '휴머노이드가 범용 로봇의 이상적 형태, 바퀴 없이도 일하지만 원하면 달 수 있음. 효과적인 게 제일'
+
+## Concept
+surface_claim: 휴머노이드 로봇은 인간 형태가 가장 이상적이며, 필요 시 바퀴를 추가해 효율성을 높일 수 있다.
+implicit_premise: 인간 노동의 '형태'와 역할은 기술적으로 재설계 가능하며, 편의와 효과가 인간성이나 전통 노동 가치를 대체할 수 있다.
+viewer_meta_message: 작성자는 결국 인간을 '효율 도구'로 환원해서 보는구나, 로봇이 인간을 따라잡는 게 아니라 인간 형태를 빌려 더 나아지는 걸 당연시하는구나.
+scene_caption_gap: 로봇이 인간처럼 서 있지만 '바퀴 달아도 된다'는 실용적 유연성 vs 장면에서 드러나는 인간 노동 대체의 불편한 유사성
+main_axis: 편의 vs 인간 노동 가치
+support_axis: 기술 진보 vs 역할 상실
+background_axis: 효율 vs 정체성
+
+## Likely Comment Axes
+- 로봇이 인간 일자리 대체 vs 인간 창의성 우위
+- 효율 최우선 사회에서 인간성은 부가적 vs 기본
+- 바퀴 옵션처럼 노동 조건도 쉽게 바꿀 수 있다는 암묵 수용 vs 저항
+- 범용 로봇이 케어/친밀 노동까지 침투할 미래
+
+## Story Hook
+공장이나 가정에서 휴머노이드가 인간처럼 물건을 나르다, 갑자기 바퀴를 달고 빠르게 이동하는 장면. 캡션: '효과적인 게 제일이죠. 인간 형태는 이상적이지만, 실용이 우선입니다.'
+
+## 6-Cut Seed
+1. utility — 로봇이 인간처럼 서서 조립 작업
+   expected_comments: 인간 노동을 그대로 모방하는 게 왜 필요할까
+2. utility — 로봇이 바퀴 모드로 전환해 빠르게 이동
+   expected_comments: 효율 좋네 vs 인간은 이런 유연성 없어
+3. care — 로봇이 노인에게 물건 건네며 미소
+   expected_comments: 케어 노동까지 로봇이? 감정은?
+4. authority — 회사 대표가 로봇을 지시하는 모습
+   expected_comments: 인간 상사 역할도 대체 가능?
+5. intimacy — 로봇과 사람이 대화하며 휴식
+   expected_comments: 친밀감은 인간만의 것인가
+6. aftermath — 빈 작업장에서 로봇만 남아 작동
+   expected_comments: 인간 없는 미래가 편할까 불편할까
+
+## Risk
+risk_note: 로봇 자체 비하 없음, 노동 가치 재계산에 초점
+freshness_risk: low
+discard_if: 작성자 조롱만 남는 경우, 허위 사실 단정이 필요한 경우
+
+## Score
+interpretation_conflict: 9
+rebuttal_pull: 8
+self_projection_pull: 8
+visual_caption_gap: 9
+brand_damage_risk: 3

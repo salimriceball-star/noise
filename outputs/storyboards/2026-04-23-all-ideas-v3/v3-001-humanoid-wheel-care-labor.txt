@@ -1,0 +1,63 @@
+# All-Ideas V3 Storyboard Candidate 1
+
+source_ideas: grok-v3-001, grok-v3-005, examples/humanoid-household demo lineage
+topic: 휴머노이드 로봇의 바퀴 옵션과 인간형 케어/노동 가치
+time_window_used: 48h
+source_type: x_home_feed + grok_synthesis
+source_confidence: high
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Concept Sheet
+surface_claim: 범용 로봇은 인간형이면 어떤 일에도 적응할 수 있고, 필요하면 바퀴를 달아 더 효율적으로 움직일 수 있다.
+implicit_premise: 인간의 형태는 친밀감과 신뢰를 빌려오지만, 실제 평가는 결국 효율·속도·대체 가능성으로 계산된다.
+viewer_meta_message: 작성자는 결국 인간형 로봇을 '가까운 동료'로 말하면서도, 인간성은 포장이고 쓸모가 본체라고 보는구나.
+scene_caption_gap: 캡션은 돌봄과 범용성을 말하지만, 장면은 사람을 닮은 기계가 사람의 자리와 관계를 조용히 재배치하는 순간을 보여준다.
+main_axis: 인간형 친밀감 vs 도구적 효율
+support_axis: 돌봄 보조 vs 노동 대체
+background_axis: 신뢰 가능한 동료 vs 관리 가능한 자산
+likely_comment_axes:
+- 바퀴 달린 로봇이 왜 인간형이어야 하는가
+- 노인/아이 돌봄 보조 vs 인간 접촉의 축소
+- 노동 위험 감소 vs 일자리/역할 축소
+- 기술 효율 vs 불쾌한 인간 흉내
+- 인간형 디자인은 배려인가 마케팅인가
+expected_comment_archetypes:
+- 논리 교정형: “바퀴가 더 효율이면 인간형 집착은 낭비다”
+- 자기경험형: “돌봄은 편의만으로 안 된다”
+- 존재론 방어형: “사람 닮은 기계가 사람 역할을 가져가도 되나”
+- 현실주의형: “위험 노동부터 대체하면 된다”
+
+## 6-Cut Storyboard Seed
+1. utility — 한국 아파트 단지 로비에서 사람 크기의 휴머노이드 로봇이 작은 바퀴를 펼치고 택배 상자를 조용히 옮긴다.
+   expected_comments: 효율, 바퀴면 충분함
+2. utility — 관리 앱 화면에는 “인간형 모드 / 바퀴 이동 모드 / 돌봄 모드”가 선택지처럼 뜬다.
+   expected_comments: 인간형의 이유, 범용성
+3. care — 노인이 로봇에게 약 봉투를 받지만, 옆 의자의 요양보호사는 근무표를 지운다.
+   expected_comments: 돌봄 보조, 일자리 대체
+4. authority — 관리자가 대시보드에서 “인력 공백 32% 절감” 수치를 확인하고 승인 도장을 누른다.
+   expected_comments: 비용 계산, 사람의 자리
+5. intimacy — 아이가 로봇에게 인사하지만 로봇은 친근한 표정을 흉내 낸 채 다음 업무 알림으로 고개를 돌린다.
+   expected_comments: 친밀감의 가짜성, 불쾌함
+6. aftermath — 로봇은 문제없이 복도를 지나가고, 사람들은 편해졌지만 서로 덜 마주 본다.
+   expected_comments: 편의의 대가, 관계 온도 변화
+
+## Copy Variants
+- 담담한 예언: 사람을 닮은 기계가 먼저 빌리는 것은 손이 아니라 신뢰다.
+- 순진한 오해: 바퀴가 달려도 사람처럼 생겼으니, 조금은 더 따뜻한 도구가 된 걸까.
+- 차가운 효율주의: 인간형은 친밀감을 담당하고, 바퀴는 비용 절감을 담당한다.
+- 피곤한 현실관찰: 로봇이 사람 일을 덜어줄 때마다, 사람의 일이 무엇이었는지도 같이 바뀐다.
+
+## Risk / Safety
+risk_note: 노인/돌봄노동자/장애 관련 비하 금지. 로봇 회사나 특정 제품 성능 허위 단정 금지. 관계와 역할 재배치의 간극만 유지.
+discard_if:
+- 돌봄 대상 조롱이 중심이 되는 경우
+- 특정 직업군 비하가 필요한 경우
+- 기술 공포물/종말론으로 단선화되는 경우
+freshness_risk: low
+
+## Evaluation
+interpretation_conflict: 5
+rebuttal_pull: 4
+self_projection_pull: 4
+visual_caption_gap: 5
+brand_damage_risk: 2

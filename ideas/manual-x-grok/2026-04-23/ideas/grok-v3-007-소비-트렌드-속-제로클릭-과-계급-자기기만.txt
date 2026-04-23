@@ -1,0 +1,56 @@
+# grok-v3-007 — 소비 트렌드 속 '제로클릭'과 계급/자기기만
+
+source: new_grok_v3
+original_idea_id: grok-007
+time_window_used: 7d
+source_type: grok_synthesis
+source_confidence: medium
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+트렌드 코리아 2026 키워드 관련 간접 신호
+
+## Concept
+surface_claim: AI가 소비 여정을 예측해 제로클릭(클릭 없이 구매)으로 편의를 제공한다.
+implicit_premise: 소비는 개인 취향 표현이지만, 알고리즘/자동화가 대신 결정하는 게 더 나은 선택이며 계급적 소비 감각을 숨긴다.
+viewer_meta_message: 작성자는 결국 편의 뒤에 숨은 자기기만과 계급 신호를 무시하는구나.
+scene_caption_gap: 사용자가 아무것도 안 했는데 AI가 '필요한' 물건 배송 완료 장면 vs '당신의 취향을 완벽히 이해한 서비스' 캡션
+main_axis: 편의 vs 자기 통제
+support_axis: 알고리즘 vs 진짜 욕망
+background_axis: 계급 vs 민주적 소비
+
+## Likely Comment Axes
+- AI가 진짜 취향 아나 vs 조작
+- 편의가 자유인가 속박인가
+- 부유층 vs 일반 소비자 차이
+- 소비를 통한 자기표현 상실
+
+## Story Hook
+사용자가 잠든 사이 AI가 추천 상품 자동 구매·배송. 아침에 상자 열어보는 장면. 캡션: '생각할 필요 없이 완벽한 소비 라이프.'
+
+## 6-Cut Seed
+1. utility — AI 데이터 분석
+   expected_comments: 데이터가 나를 아나
+2. utility — 자동 구매
+   expected_comments: 편하지만 통제 상실
+3. care — 배송 도착 알림
+   expected_comments: 필요했던 건가?
+4. intimacy — 사용자 상자 열음
+   expected_comments: 자기기만
+5. aftermath — 쌓이는 물건
+   expected_comments: 계급적 과소비
+6. authority — 플랫폼 '만족도 99%'
+   expected_comments: 진짜 만족?
+
+## Risk
+risk_note:
+freshness_risk: medium
+discard_if:
+
+## Score
+interpretation_conflict: 7
+rebuttal_pull: 7
+self_projection_pull: 8
+visual_caption_gap: 8
+brand_damage_risk: 5

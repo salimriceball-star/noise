@@ -1,0 +1,56 @@
+# grok-v3-008 — AI 에이전트 신뢰와 플랫폼 의존 탈피
+
+source: new_grok_v3
+original_idea_id: grok-008
+time_window_used: 48h
+source_type: x_search
+source_confidence: medium
+status: collected_unworked
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+AI 에이전트 신뢰 구조 관련 글로벌 포스트 한국어 맥락 전환 가능
+
+## Concept
+surface_claim: 플랫폼이 인증해주는 신뢰 대신 개인/AI 에이전트가 portable trust를 가져야 한다.
+implicit_premise: 현재 플랫폼 중개 신뢰는 불완전하며, 개인이 직접 증명하는 구조로 이동하면 권력 분산이 일어난다.
+viewer_meta_message: 작성자는 결국 플랫폼 권력을 비판하지만, 새로운 신뢰 시스템에서 생기는 불평등이나 혼란을 과소평가하는구나.
+scene_caption_gap: 플랫폼 계정 정지로 신뢰 사라지는 사람 vs 블록체인으로 자기 증명하는 AI 에이전트 장면
+main_axis: 플랫폼 신뢰 vs 개인 신뢰
+support_axis: 중개 vs 직접
+background_axis: 권력 vs 자율
+
+## Likely Comment Axes
+- 플랫폼 탈피 현실성 vs 위험
+- AI 에이전트 신뢰 어떻게 보장
+- 개인 vs 기업 불평등 확대
+- 새로운 사기 형태 등장
+
+## Story Hook
+링크드인 계정 정지로 모든 연결 끊기는 장면과, 자기 증명 AI가 어디서나 활동하는 장면. 캡션: '신뢰를 플랫폼에 빌리지 말고 내가 소유하자.'
+
+## 6-Cut Seed
+1. authority — 플랫폼 인증
+   expected_comments: 플랫폼이 신뢰 주인
+2. utility — 계정 정지
+   expected_comments: 모든 게 사라짐
+3. intimacy — 개인 증명 설정
+   expected_comments: 자기 증명이 진짜?
+4. utility — AI 에이전트 활동
+   expected_comments: AI가 나를 대신
+5. aftermath — 새로운 거래 성공
+   expected_comments: 자유 vs 불안
+6. care — 커뮤니티 반응
+   expected_comments: 누가 이득?
+
+## Risk
+risk_note:
+freshness_risk: low
+discard_if:
+
+## Score
+interpretation_conflict: 8
+rebuttal_pull: 8
+self_projection_pull: 7
+visual_caption_gap: 7
+brand_damage_risk: 4

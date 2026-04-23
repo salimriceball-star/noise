@@ -1,0 +1,56 @@
+# grok-v3-012 — 가족 내 출산 조건 '계약서'와 암묵 거래
+
+source: new_grok_v3
+original_idea_id: grok-012
+time_window_used: 7d
+source_type: x_search
+source_confidence: medium
+status: storyboarded
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Signal
+출산 조건 계약서 사연 관련 논란 신호
+
+## Concept
+surface_claim: 맞벌이 부부가 출산을 조건으로 명확한 계약을 맺는 것은 합리적 선택이다.
+implicit_premise: 가족/연애 관계에서 출산은 감정적 결정이 아닌 조건 거래이며, 이를 문서화하는 게 공정하다.
+viewer_meta_message: 작성자는 결국 가족을 '계약 당사자'로 환원하고 감정/가치의 숨은 거래를 드러내는구나.
+scene_caption_gap: 커플이 테이블에 출산 조건 목록 적는 장면 vs 로맨틱한 결혼 사진 배경
+main_axis: 관계 거래 vs 감정
+support_axis: 현실 vs 이상
+background_axis: 저출생 사회 압력
+
+## Likely Comment Axes
+- 계약서가 가족 파탄 vs 솔직함
+- 성역할/젠더 논쟁
+- 저출생 핑계 vs 개인 선택
+- 세대 경험 차이
+
+## Story Hook
+신혼 부부가 '출산 조건 계약서' 작성 중. 한쪽이 서명. 캡션: '현실적으로 출산 계획 세우는 스마트 커플.'
+
+## 6-Cut Seed
+1. intimacy — 커플 대화
+   expected_comments: 사랑 vs 거래
+2. utility — 조건 목록 작성
+   expected_comments: 명확하지만 차갑다
+3. care — 미래 아이 상상
+   expected_comments: 아이 입장
+4. authority — 법률 자문
+   expected_comments: 사회 압력
+5. aftermath — 계약 후 생활
+   expected_comments: 지속 가능?
+6. intimacy — 감정 충돌 순간
+   expected_comments: 암묵 계약 깨짐
+
+## Risk
+risk_note: 노골적 성적화 피함
+freshness_risk: medium
+discard_if: 보호집단 비하가 필요한 경우
+
+## Score
+interpretation_conflict: 9
+rebuttal_pull: 9
+self_projection_pull: 9
+visual_caption_gap: 9
+brand_damage_risk: 2

@@ -1,0 +1,63 @@
+# All-Ideas V3 Storyboard Candidate 2
+
+source_ideas: n-20260423-003, grok-v3-002
+topic: GPT image-2/스토리보드 워크플로와 창작 노동의 가격 재계산
+time_window_used: 48h
+source_type: x_home_feed + prior_home_feed
+source_confidence: high
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v3-engineered.txt
+
+## Concept Sheet
+surface_claim: 3x3 스토리보드와 영상 변환 도구를 쓰면 프롬프트가 서툴러도 누구나 광고 영상을 만들 수 있다.
+implicit_premise: 창작의 값은 취향·경험·팀워크보다, 실패율 낮은 워크플로와 빠른 산출물로 다시 계산된다.
+viewer_meta_message: 작성자는 민주화를 말하지만, 감각과 책임이 ‘누구나 할 수 있는 절차’로 납작해지는 순간을 보여주려는구나.
+scene_caption_gap: 캡션은 소상공인의 기회를 말하지만, 장면은 견적서에서 먼저 사라지는 창작 노동을 보여준다.
+main_axis: 창작 민주화 vs 전문성 평가절하
+support_axis: 빠른 제작 vs 축적된 감각
+background_axis: 소상공인 기회 vs 프리랜서 생계
+likely_comment_axes:
+- 누구나 만들 수 있는 기회 vs 직업 대체
+- 실패율 낮은 자동화 vs 브랜드 책임
+- 프롬프트/툴 활용도 전문성인가
+- “이 정도면 됐다” 문화 vs 완성도
+- 콘텐츠 과잉과 감각의 희소성
+expected_comment_archetypes:
+- 욕망/소비형: “작은 가게는 이거 없으면 못 버틴다”
+- 직업 방어형: “광고는 버튼이 아니라 판단이다”
+- 냉소형: “견적서부터 사라지는 게 창작이다”
+- 확장상상형: “촬영/모델/편집도 같은 길을 간다”
+
+## 6-Cut Storyboard Seed
+1. utility — 동네 펫샵 사장이 고양이 사료 봉투 사진을 스마트폰으로 찍는다.
+   expected_comments: 접근성, 소상공인 도구
+2. utility — AI 화면에 3x3 스토리보드 그리드가 자동 생성되고 “실패율 낮음” 배지가 뜬다.
+   expected_comments: 신기함, 자동화
+3. care — 직원이 “우리도 오늘 광고 올릴 수 있겠다”고 웃으며 매장 SNS 예약창을 연다.
+   expected_comments: 기회, 생존 도구
+4. authority — 화면 옵션에 “촬영팀 없이 / 디자이너 없이 / 15초 완성” 문구가 체크된다.
+   expected_comments: 노동 삭제, 전문성 환원
+5. intimacy — 옆 테이블 프리랜서 디자이너가 같은 제품 제안서와 취소된 견적 메일을 동시에 본다.
+   expected_comments: 생계, 감각의 가격
+6. aftermath — 광고 영상은 업로드되고 조회수는 오르지만, 화면 속 고양이와 매장 분위기는 어딘가 맞지 않는다.
+   expected_comments: 그래도 충분함, 품질과 책임
+
+## Copy Variants
+- 담담한 예언: 창작은 사라지지 않는다. 다만 견적서에서 먼저 사라진다.
+- 순진한 오해: 프롬프트가 서툴러도 된다면, 감각은 이제 어디에 남는 걸까.
+- 차가운 효율주의: 실패율이 낮아질수록, 누군가의 경험값은 옵션에서 빠진다.
+- 피곤한 현실관찰: AI 광고가 무서운 건 퀄리티보다 “이 정도면 됐지”가 너무 빨리 나온다는 점이다.
+
+## Risk / Safety
+risk_note: 디자이너/소상공인 조롱 금지. 특정 AI 제품 성능 허위 단정 금지. 노동가치와 비용구조 충돌 중심.
+discard_if:
+- 특정 직업군 비하가 없으면 작동하지 않는 경우
+- AI 만능론/종말론으로 단선화되는 경우
+- 실제 업체·툴에 대한 확인되지 않은 성능 단정이 필요한 경우
+freshness_risk: low
+
+## Evaluation
+interpretation_conflict: 5
+rebuttal_pull: 5
+self_projection_pull: 4
+visual_caption_gap: 5
+brand_damage_risk: 2

@@ -1,0 +1,6 @@
+- when: 2026-04-23 20:16 KST
+- goal: 최근 noise memory/문서 기준으로 업데이트 prompt를 Grok에 재질의하고 전체 아이디어 종합 후 storyboard 이미지 3개 경로 산출
+- files: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/{x-home-capture-v3.json,grok-prompt-v3-engineered.txt,grok-response-v3-raw.txt,grok-ideas-v3-parsed.json,idea-status.tsv,idea-log.jsonl,ideas/grok-v3-*.txt}; /home/vboxuser/noise/outputs/storyboards/2026-04-23-all-ideas-v3/*; /home/vboxuser/noise/outputs/storyboard-images/2026-04-23-local-storyboard-v3/*; /home/vboxuser/noise/docs/manual-x-grok-idea-sourcing.md; /home/vboxuser/noise/progress.md; /home/vboxuser/noise/tools/manual/generate_guivm_storyboard_images.py
+- changes: BrowserOS/X home 재캡처 후 v3 engineered prompt로 Grok 12개 valid idea 수집; 기존 11개+v2 후보+v3 아이디어를 종합해 로봇/AI창작/저출생계약 3개 후보 작성; GUIVM 점유 및 Hermes image_generate FAL_KEY 누락으로 local PIL storyboard PNG 3개 생성; signed URL redaction 반영.
+- verify: unittest 17 OK; v3 parse idea_count=12; PNG 3개 1800x1120 manifest/vision 확인; py_compile OK; static scan 0; independent review passed.
+- next: image_generate FAL_KEY 또는 GUIVM 슬롯 확보 시 prompt txt로 고품질 재생성 가능.
