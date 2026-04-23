@@ -1,0 +1,6 @@
+- when: 2026-04-23 19:11 KST
+- goal: Grok에게 noise project를 설명 없이 묻는 문제 수정; 의도/맥락/예시/타임윈도우 포함한 engineered prompt 보강
+- files: /home/vboxuser/noise/prompts/x_grok_noise_idea_prompt_template.md; /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v2-engineered.txt; /home/vboxuser/noise/docs/manual-x-grok-idea-sourcing.md; /home/vboxuser/noise/README.md; /home/vboxuser/noise/progress.md; skill noise-x-grok-manual-idea-sourcing reference prompt
+- changes: noise=해석 충돌 설계 정의, 댓글 동력학/선정 기준/금지 기준, 48h 타임윈도우, 검색 방향, 좋은 예시 3개/나쁜 예시, JSON score/storyboard schema 추가
+- verify: `python3 -m unittest discover -s tests -v` => 17 OK; template + concrete prompt contain timewindow/examples/intent checks OK
+- next: 다음 X/Grok 수집 때 v2 template 사용

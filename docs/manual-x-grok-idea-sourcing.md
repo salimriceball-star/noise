@@ -33,6 +33,29 @@ Current run:
   - click the button whose `aria-label` includes `Grok`
   - capture `primaryColumn.innerText`
 
+## Prompt engineering standard
+
+Do not ask Grok a vague prompt like "find ideas for the noise project." Grok does not know the project philosophy, the target comment dynamics, the safety boundaries, or the needed evidence window.
+
+A usable Grok prompt must include:
+
+- intent: `noise` means interpretation-collision design, not rage bait.
+- context: comments should emerge from the gap between visible scene and caption claim.
+- selection criteria: minimum 4 independent comment axes, rebuttal + self-projection + worldview expansion, low author-attack dependency.
+- safety: no protected-class insult, no explicit sexualization, no fabricated claims, no individual harassment.
+- time window: primary recent window such as 24h/48h/72h, with fallback to 7d only when needed.
+- source confidence: home feed/search/trend/Grok synthesis must be distinguished.
+- examples: at least 2-3 good examples and bad examples so Grok can pattern-match the desired output.
+- output schema: valid JSON inside `<noise_json>...</noise_json>` with story seed, axes, risk, and scores.
+
+Canonical template:
+
+- `/home/vboxuser/noise/prompts/x_grok_noise_idea_prompt_template.md`
+
+This run's revised concrete prompt:
+
+- `/home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v2-engineered.txt`
+
 ## Parser note
 
 Grok echoes the prompt, including the empty schema tag:
