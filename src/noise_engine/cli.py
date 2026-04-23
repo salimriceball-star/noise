@@ -24,6 +24,7 @@ def build_parser() -> argparse.ArgumentParser:
     smoke = subparsers.add_parser("smoke", help="Run a minimal live guivm JSON smoke test")
     smoke.add_argument("--base-url", default=DEFAULT_BASE_URL)
     smoke.add_argument("--symbol", default="noise-smoke")
+    smoke.add_argument("--wait-timeout-sec", type=int, default=180)
 
     run = subparsers.add_parser("run", help="Run bundle generation")
     run.add_argument("--brief", required=True)
@@ -32,23 +33,31 @@ def build_parser() -> argparse.ArgumentParser:
     run.add_argument("--base-url", default=DEFAULT_BASE_URL)
     run.add_argument("--symbol", default="noise")
     run.add_argument("--offline", action="store_true")
+    run.add_argument("--wait-timeout-sec", type=int, default=180)
 
     demo = subparsers.add_parser("demo", help="Run the bundled humanoid-household demo")
     demo.add_argument("--output-dir", required=True)
     demo.add_argument("--base-url", default=DEFAULT_BASE_URL)
     demo.add_argument("--symbol", default="noise-demo")
     demo.add_argument("--offline", action="store_true")
+    demo.add_argument("--wait-timeout-sec", type=int, default=180)
 
     return parser
 
 
 
-def _resolve_client(base_url: str, client: Any | None, *, offline: bool = False) -> Any:
+def _resolve_client(
+    base_url: str,
+    client: Any | None,
+    *,
+    offline: bool = False,
+    wait_timeout_sec: int = 180,
+) -> Any:
     if client is not None:
         return client
     if offline:
         return DeterministicNoiseClient()
-    return GUIVMClient(base_url=base_url)
+    return GUIVMClient(base_url=base_url, capacity_wait_timeout_sec=wait_timeout_sec)
 
 
 
@@ -62,42 +71,56 @@ def main(argv: list[str] | None = None, *, client: Any | None = None) -> int:
         print(json.dumps(payload, ensure_ascii=False, indent=2))
         return 0
 
-    if args.command == "smoke":
-        resolved = _resolve_client(args.base_url, client)
-        payload = resolved.infer_json(
-            stage="noise-smoke",
-            symbol=args.symbol,
-            request_id="noise-smoke-cli",
-            prompt='Return strict JSON only. {"ok": true, "summary": "noise smoke"}',
-        )
-        print(json.dumps(payload, ensure_ascii=False, indent=2))
-        return 0
+    try:
+        if args.command == "smoke":
+            resolved = _resolve_client(args.base_url, client, wait_timeout_sec=args.wait_timeout_sec)
+            payload = resolved.infer_json(
+                stage="noise-smoke",
+                symbol=args.symbol,
+                request_id="noise-smoke-cli",
+                prompt='Return strict JSON only. {"ok": true, "summary": "noise smoke"}',
+            )
+            print(json.dumps(payload, ensure_ascii=False, indent=2))
+            return 0
 
-    if args.command == "run":
-        resolved = _resolve_client(args.base_url, client, offline=args.offline)
-        pipeline = NoisePipeline(client=resolved)
-        result = pipeline.run(
-            brief_path=args.brief,
-            comments_path=args.comments,
-            output_dir=args.output_dir,
-            symbol=args.symbol,
-        )
-        print(json.dumps(result, ensure_ascii=False, indent=2))
-        return 0
+        if args.command == "run":
+            resolved = _resolve_client(
+                args.base_url,
+                client,
+                offline=args.offline,
+                wait_timeout_sec=args.wait_timeout_sec,
+            )
+            pipeline = NoisePipeline(client=resolved)
+            result = pipeline.run(
+                brief_path=args.brief,
+                comments_path=args.comments,
+                output_dir=args.output_dir,
+                symbol=args.symbol,
+            )
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 0
 
-    if args.command == "demo":
-        resolved = _resolve_client(args.base_url, client, offline=args.offline)
-        pipeline = NoisePipeline(client=resolved)
-        project_root = Path(__file__).resolve().parents[2]
-        example_dir = project_root / "examples" / "humanoid-household"
-        result = pipeline.run(
-            brief_path=example_dir / "brief.md",
-            comments_path=example_dir / "comments.jsonl",
-            output_dir=args.output_dir,
-            symbol=args.symbol,
-        )
-        print(json.dumps(result, ensure_ascii=False, indent=2))
-        return 0
+        if args.command == "demo":
+            resolved = _resolve_client(
+                args.base_url,
+                client,
+                offline=args.offline,
+                wait_timeout_sec=args.wait_timeout_sec,
+            )
+            pipeline = NoisePipeline(client=resolved)
+            project_root = Path(__file__).resolve().parents[2]
+            example_dir = project_root / "examples" / "humanoid-household"
+            result = pipeline.run(
+                brief_path=example_dir / "brief.md",
+                comments_path=example_dir / "comments.jsonl",
+                output_dir=args.output_dir,
+                symbol=args.symbol,
+            )
+            print(json.dumps(result, ensure_ascii=False, indent=2))
+            return 0
+    except TimeoutError as exc:
+        print(json.dumps({"error": str(exc)}, ensure_ascii=False, indent=2))
+        return 1
 
     parser.error(f"unknown command: {args.command}")
     return 2

@@ -15,6 +15,8 @@ class GUIVMClient:
     symbol: str = "noise"
     reasoning_effort: str = "medium"
     timeout_sec: int = 240
+    capacity_wait_timeout_sec: int = 180
+    busy_poll_interval_sec: int = 10
     session: requests.Session = field(init=False, repr=False)
     last_exchange: dict[str, Any] | None = field(init=False, default=None, repr=False)
 
@@ -31,8 +33,9 @@ class GUIVMClient:
         response.raise_for_status()
         return response.json()
 
-    def wait_for_capacity(self, extra_buffer: int = 2, max_total_wait_sec: int = 900) -> dict:
-        deadline = time.time() + max_total_wait_sec
+    def wait_for_capacity(self, extra_buffer: int = 2, max_total_wait_sec: int | None = None) -> dict:
+        wait_budget = max_total_wait_sec if max_total_wait_sec is not None else self.capacity_wait_timeout_sec
+        deadline = time.time() + wait_budget
         while True:
             data = self.check_capacity()
             running = data.get("running", 0) or 0
@@ -41,9 +44,15 @@ class GUIVMClient:
             if next_allowed > 0:
                 wait_s = max(wait_s, next_allowed + extra_buffer)
             if running > 0:
-                wait_s = max(wait_s, 10)
-            if wait_s <= 0 or time.time() + wait_s > deadline:
+                wait_s = max(wait_s, self.busy_poll_interval_sec)
+            if wait_s <= 0:
                 return data
+            remaining = deadline - time.time()
+            if remaining <= 0 or wait_s > remaining:
+                raise TimeoutError(
+                    "GUIVM capacity wait timed out "
+                    f"after {wait_budget}s (running={running}, next_allowed={next_allowed})"
+                )
             time.sleep(wait_s)
 
     def infer_json(self, *, stage: str, symbol: str, prompt: str, request_id: str) -> dict:

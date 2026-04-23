@@ -1,0 +1,7 @@
+- when: 2026-04-23 07:54 UTC
+- goal: proc_395b6642b2eb 로그 확인 후 live guivm 대기 hang를 명시적 timeout으로 전환
+- files: /home/vboxuser/noise/{README.md,progress.md}; /home/vboxuser/noise/docs/architecture.md; /home/vboxuser/noise/src/noise_engine/{guivm.py,cli.py}; /home/vboxuser/noise/tests/{test_cli.py,test_pipeline.py}
+- changes: GUIVMClient에 capacity_wait_timeout_sec/busy_poll_interval_sec 추가, wait_for_capacity가 deadline 초과 시 TimeoutError 발생, CLI에 --wait-timeout-sec 추가 및 JSON error 반환
+- verify: `python3 -m unittest discover -s tests -v` => 13 OK; `PYTHONPATH=src python3 -m noise_engine.cli smoke --base-url http://10.0.2.2:8765 --wait-timeout-sec 5` => JSON timeout error; doctor 재확인 OK
+- refs: user-provided proc_395b6642b2eb output, /home/vboxuser/noise/runs/live-validation-note-2026-04-23.md
+- next: 필요시 guivm stuck worker 원인 별도 조사

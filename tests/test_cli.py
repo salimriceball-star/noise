@@ -48,7 +48,7 @@ class CliTests(unittest.TestCase):
         self.assertEqual(exit_code, 0)
 
     def test_smoke_command_returns_success(self) -> None:
-        exit_code = main(["smoke"], client=FakeGUIVMClient())
+        exit_code = main(["smoke", "--wait-timeout-sec", "5"], client=FakeGUIVMClient())
         self.assertEqual(exit_code, 0)
 
     def test_run_command_writes_bundle(self) -> None:

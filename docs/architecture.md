@@ -49,6 +49,7 @@ off-target drift 카운터:
 
 - 실제 guivm는 분당 1회/최소간격 60초 전제를 가진다.
 - 따라서 staged 6-call 대신 batch 1-call orchestration을 기본값으로 사용한다.
+- live CLI는 `--wait-timeout-sec` 로 capacity 대기 상한을 줄일 수 있고, 초과 시 명시적 timeout error를 반환한다.
 - 필요하면 나중에 staged mode를 추가할 수 있다.
 
 ## 5. Validation strategy

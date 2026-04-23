@@ -5,6 +5,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
@@ -118,6 +119,21 @@ class PipelineTests(unittest.TestCase):
         client = GUIVMClient(base_url="http://example.com")
         self.assertIsNotNone(client.session)
         self.assertIsNone(client.export_last_exchange())
+
+    def test_guivm_wait_for_capacity_raises_timeout_when_slot_stays_busy(self) -> None:
+        class BusyClient(GUIVMClient):
+            def check_capacity(self) -> dict:
+                return {
+                    "running": 1,
+                    "infer_quota": {"phase": {"next_allowed_in_sec": 0}},
+                }
+
+        client = BusyClient(base_url="http://example.com", capacity_wait_timeout_sec=3, busy_poll_interval_sec=1)
+        with patch("noise_engine.guivm.time.sleep", return_value=None), patch(
+            "noise_engine.guivm.time.time", side_effect=[0, 0, 1, 1, 2, 2, 4, 4]
+        ):
+            with self.assertRaises(TimeoutError):
+                client.wait_for_capacity()
 
     def setUp(self) -> None:
         self.temp_dir = Path(tempfile.mkdtemp(prefix="noise-pipeline-"))

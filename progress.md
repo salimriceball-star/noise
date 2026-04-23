@@ -21,6 +21,7 @@
 - [x] guivm doctor 실검증
 - [x] guivm direct smoke 실검증 (`noise-smoke-20260423-a` -> `{\"ok\": true, \"summary\": \"ping\"}`)
 - [x] offline demo end-to-end 실검증 (`/home/vboxuser/noise/runs/demo-offline`)
+- [x] live capacity-timeout hardening (`--wait-timeout-sec`, busy slot 시 JSON error 반환)
 - [ ] git commit/push
 - [ ] Serena memory 기록
 - [ ] Telegram 알림

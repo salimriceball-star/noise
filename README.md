@@ -42,7 +42,8 @@ GUIVM 상태 점검:
 - `PYTHONPATH=src python3 -m noise_engine.cli doctor --base-url http://10.0.2.2:8765`
 
 GUIVM live smoke:
-- `PYTHONPATH=src python3 -m noise_engine.cli smoke --base-url http://10.0.2.2:8765`
+- `PYTHONPATH=src python3 -m noise_engine.cli smoke --base-url http://10.0.2.2:8765 --wait-timeout-sec 90`
+- 슬롯이 계속 점유 중이면 traceback 대신 JSON error로 빠르게 종료한다.
 
 샘플 번들 생성:
 - offline deterministic fallback: `PYTHONPATH=src python3 -m noise_engine.cli demo --offline --output-dir /home/vboxuser/noise/runs/demo`
