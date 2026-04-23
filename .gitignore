@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.local/*
+!.local/README.md
+runs/
+logs/
+*.tmp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+- when: 2026-04-23 07:45 UTC
+- goal: 사용자 요구대로 /home/vboxuser/noise 에 해석 충돌 설계 엔진 구축, 테스트, guivm 연동 재사용, git push 준비
+- files: /home/vboxuser/noise/{agents.md,README.md,progress.md,pyproject.toml,.gitignore,sitecustomize.py}; /home/vboxuser/noise/docs/{architecture.md,plans/2026-04-23-noise-engine.md}; /home/vboxuser/noise/examples/humanoid-household/{brief.md,comments.jsonl}; /home/vboxuser/noise/prompts/*; /home/vboxuser/noise/src/noise_engine/{__init__.py,models.py,corpus.py,prompting.py,guivm.py,local_client.py,pipeline.py,cli.py}; /home/vboxuser/noise/tests/{test_corpus.py,test_pipeline.py,test_cli.py}
+- changes: 규칙기반 코퍼스 분석+archetype/axis/risk 태깅, guivm JSON client, batch prompt orchestrator, offline deterministic fallback, CLI doctor/run/demo/smoke, 샘플 브리프/코퍼스, 문서/플랜 작성
+- verify: `python3 -m unittest discover -s tests -v` => 12 OK; `PYTHONPATH=src python3 -m noise_engine.cli doctor --base-url http://10.0.2.2:8765` OK; direct guivm smoke `noise-smoke-20260423-a` => {"ok":true,"summary":"ping"}; `PYTHONPATH=src python3 -m noise_engine.cli demo --offline --output-dir /home/vboxuser/noise/runs/demo-offline` OK
+- refs: /home/vboxuser/ai_persona/agents.md, /home/vboxuser/noise/runs/live-validation-note-2026-04-23.md
+- next: git commit/push, Telegram master id 확인 후 완료 알림
