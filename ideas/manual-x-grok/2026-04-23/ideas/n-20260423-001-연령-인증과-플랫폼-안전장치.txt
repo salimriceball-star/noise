@@ -1,0 +1,27 @@
+id: n-20260423-001
+status: storyboarded
+source: x_home_feed
+topic: 연령 인증과 플랫폼 안전장치
+
+observed_signal_on_x:
+홈 피드에서 Discord 연령 인증이 “잘 되어 보인다”는 게시물이 높은 조회/반응을 얻음.
+
+surface_claim:
+아이 보호를 위해 플랫폼 연령 인증은 더 촘촘해져야 한다.
+
+implicit_premise:
+안전이 커질수록 익명성·자율성·어른 사용자의 귀찮음도 함께 비용으로 떠오른다.
+
+likely_comment_axes:
+- 청소년 보호 vs 사생활 침해
+- 플랫폼 책임 vs 사용자 자유
+- 편의성 vs 안전 비용
+
+scene_hook:
+메신저 앱에서 생년월일·얼굴 인증을 요구받고, 옆에서 부모가 “그냥 해”라고 말하는 장면.
+
+risk_note:
+미성년자 비하나 특정 플랫폼 허위 단정 금지. 기능/관계/감시감 중심으로 설계.
+
+why_useful_for_noise_pipeline:
+안전이라는 선한 명분과 개인정보/감시의 불편함이 동시에 살아 댓글축이 갈라진다.

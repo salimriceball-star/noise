@@ -1,0 +1,7 @@
+- when: 2026-04-23 09:40 UTC
+- goal: noise 프로젝트에 수동 X/Grok 아이디어 수집 작업 추가, 실제 수집/파싱/스토리보드 3개 완수, 스킬 등록
+- files: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/**; /home/vboxuser/noise/outputs/storyboards/2026-04-23/*.txt; /home/vboxuser/noise/tools/manual/x_grok_cdp_manual_probe.js; /home/vboxuser/noise/src/noise_engine/grok_parser.py; /home/vboxuser/noise/tests/test_grok_parser.py; /home/vboxuser/noise/docs/manual-x-grok-idea-sourcing.md; README.md; progress.md
+- changes: X home feed 수동 캡처+Grok 질의 응답 수집, Grok prompt echo의 빈 noise_json 태그 회피 parser 구현, 아이디어 11개 txt 저장, idea-status.tsv/idea-log.jsonl 상태 ledger 작성, 3개 storyboard 저장
+- verify: `python3 -m unittest discover -s tests -v` => 17 OK; `node --check tools/manual/x_grok_cdp_manual_probe.js` OK; idea_txt_count=11; storyboard_count=3
+- skill: `noise-x-grok-manual-idea-sourcing` 생성 완료
+- next: 후속 수집 시 동일 skill 사용, 자동 루틴화 금지

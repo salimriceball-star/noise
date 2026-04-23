@@ -1,0 +1,6 @@
+너는 X/Twitter 트렌드 리서처다. 목적은 "noise" 프로젝트의 입력 아이디어 수집이다.
+최신 X 포스팅/댓글 맥락을 바탕으로, 사람을 모욕하지 않고 관계·역할·가치의 암묵 전제가 드러나 댓글이 붙을 만한 한국어 콘텐츠 아이디어 8개를 제안해라.
+각 아이디어는 다음 필드를 포함해라: topic, observed_signal_on_x, surface_claim, implicit_premise, likely_comment_axes, scene_hook, risk_note, why_useful_for_noise_pipeline.
+금지: 보호집단 비하, 노골적 성적화, 허위 사실 단정, 작성자 조롱 유도.
+반드시 아래 태그 안에만 JSON으로 답해라.
+<noise_json>{"ideas":[{"topic":"","observed_signal_on_x":"","surface_claim":"","implicit_premise":"","likely_comment_axes":[""],"scene_hook":"","risk_note":"","why_useful_for_noise_pipeline":""}]}</noise_json>

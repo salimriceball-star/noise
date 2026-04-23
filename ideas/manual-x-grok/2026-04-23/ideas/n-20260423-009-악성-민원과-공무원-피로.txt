@@ -1,0 +1,27 @@
+id: n-20260423-009
+status: collected_unworked
+source: grok_x_search
+topic: 악성 민원과 공무원 피로
+
+observed_signal_on_x:
+공무원 대상 악성 민원 증가와 정신 건강 문제를 지적하는 포스팅에 공감과 해결책 제안 댓글이 많음
+
+surface_claim:
+반복적·비합리적 민원이 공공 행정의 효율을 저해하고 담당자들의 부담을 키운다.
+
+implicit_premise:
+모든 민원을 동등하게 수용하는 원칙이 과도하게 적용되면 공공 서비스 전체의 질이 떨어질 수 있다.
+
+likely_comment_axes:
+- 민원인 권리 보호 vs 행정 보호
+- 제도 개선 vs 문화 변화
+- 개인 사례 vs 구조적 문제
+
+scene_hook:
+야근 중 또 걸려온 터무니없는 민원 전화를 받으며 한숨 쉬는 공무원이 '오늘도 버텨야지' 생각하는 장면
+
+risk_note:
+공무원이나 민원인 집단 전체를 비하하지 않고 제도적 현상으로 한정
+
+why_useful_for_noise_pipeline:
+일상적 불만과 공감이 섞인 주제로, 실생활 기반 댓글 축이 다양하게 나와 noise 생성에 효과적

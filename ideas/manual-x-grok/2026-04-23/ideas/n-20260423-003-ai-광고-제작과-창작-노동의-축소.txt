@@ -1,0 +1,27 @@
+id: n-20260423-003
+status: collected_unworked
+source: x_home_feed
+topic: AI 광고 제작과 창작 노동의 축소
+
+observed_signal_on_x:
+GPT Image 2 + Seedance 2.0으로 제품 이미지 하나에서 광고 영상을 만든다는 워크플로 게시물이 반복 노출됨.
+
+surface_claim:
+이제 제품 사진 한 장만 있으면 광고팀 없이도 광고가 만들어진다.
+
+implicit_premise:
+창작 결과물의 가치는 팀·경험·취향보다 빠른 도구 조합으로 재계산될 수 있다.
+
+likely_comment_axes:
+- 민주화 vs 직업 대체
+- 속도 vs 감각/브랜드 책임
+- 소상공인 기회 vs 창작 노동 평가절하
+
+scene_hook:
+동네 가게 사장이 고양이 사료 사진 하나로 광고 영상을 뽑고, 옆의 디자이너가 조용히 보는 장면.
+
+risk_note:
+특정 직업군 조롱 금지. 도구와 노동 가치 충돌 중심.
+
+why_useful_for_noise_pipeline:
+AI 편의 컷과 인간 노동의 감정적 손실이 장면-문장 간극을 만든다.

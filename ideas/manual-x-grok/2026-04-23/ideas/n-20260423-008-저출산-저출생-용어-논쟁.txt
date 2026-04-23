@@ -1,0 +1,27 @@
+id: n-20260423-008
+status: storyboarded
+source: grok_x_search
+topic: 저출산·저출생 용어 논쟁
+
+observed_signal_on_x:
+저출산을 저출생으로 바꾸려는 시도 관련 포스팅에 언어 순화 vs 현실 직시 댓글이 활발
+
+surface_claim:
+저출산 문제를 표현하는 용어를 더 중립적·긍정적으로 바꾸는 것이 사회적 배려다.
+
+implicit_premise:
+언어 선택이 사회 인식과 정책 방향에 영향을 미치며, 부정적 뉘앙스를 완화하면 문제 해결에 도움이 될 수 있다.
+
+likely_comment_axes:
+- 언어 순화 효과 vs 현실 왜곡
+- 배려 vs 과도한 정치적 올바름
+- 정책 본질 vs 표현 논쟁
+
+scene_hook:
+뉴스 댓글 창에서 '저출생이라고 하면 출생 자체가 문제처럼 들린다'는 의견을 읽으며 고개를 끄덕이는 30대 부모
+
+risk_note:
+인구 문제 관련 특정 집단 비하 금지, 용어 논의에 초점
+
+why_useful_for_noise_pipeline:
+언어·표현 논쟁은 감정적 댓글이 잘 붙는 전형적 패턴으로, noise에서 미묘한 가치 충돌을 생성하기 적합

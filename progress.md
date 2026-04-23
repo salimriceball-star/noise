@@ -22,6 +22,16 @@
 - [x] guivm direct smoke 실검증 (`noise-smoke-20260423-a` -> `{\"ok\": true, \"summary\": \"ping\"}`)
 - [x] offline demo end-to-end 실검증 (`/home/vboxuser/noise/runs/demo-offline`)
 - [x] live capacity-timeout hardening (`--wait-timeout-sec`, busy slot 시 JSON error 반환)
-- [ ] git commit/push
-- [ ] Serena memory 기록
-- [ ] Telegram 알림
+- [x] git commit/push
+- [x] Serena memory 기록
+- [x] Telegram 알림
+
+## Milestone 5: Manual X/Grok idea sourcing
+- [x] BrowserOS fixed profile / X login 상태에서 홈 피드 수동 점검
+- [x] Grok prompt 수동 작성/투입 및 응답 수집
+- [x] Grok 응답 parser 시행착오 반영 (`prompt echo`의 빈 `<noise_json>` 스키마를 피하고 non-empty answer 선택)
+- [x] 아이디어 11개를 txt 파일로 저장
+- [x] `idea-status.tsv` + `idea-log.jsonl` 로 collected/storyboarded 상태 구분
+- [x] 스토리보드 3개 버전 저장
+- [x] skill 등록 (`noise-x-grok-manual-idea-sourcing`)
+- [x] git commit/push

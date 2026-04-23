@@ -1,0 +1,27 @@
+id: n-20260423-002
+status: collected_unworked
+source: x_home_feed
+topic: 확률 시장과 재난·외계인·뉴스의 게임화
+
+observed_signal_on_x:
+Polymarket 광고가 “외계인이 확인될 확률”을 돈벌이 소재로 제시하며 홈 피드에 노출됨.
+
+surface_claim:
+뉴스를 맞히는 시장은 세상을 더 정직하게 예측하게 만든다.
+
+implicit_premise:
+현실의 사건이 정보 판단이 아니라 베팅과 오락의 대상이 될 수 있다.
+
+likely_comment_axes:
+- 집단지성 vs 도박화
+- 정보 효율 vs 비극의 상품화
+- 재미 vs 사회적 무감각
+
+scene_hook:
+출근길 지하철에서 전쟁/외계인/선거 확률을 스포츠 점수처럼 확인하는 사람.
+
+risk_note:
+실제 재난을 조롱하지 말고 “정보 소비 방식”에 초점.
+
+why_useful_for_noise_pipeline:
+사람들이 “예측”과 “도박” 사이의 경계에 대해 자기 윤리를 드러내게 만든다.
