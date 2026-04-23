@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-04-23T15:42:16.643992+00:00",
+  "base_url": "http://10.0.2.2:8765",
+  "prompt_file": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/autonomous-car-passive-taxi-income.prompt.txt",
+  "entries": [
+    {
+      "slug": "autonomous-car-passive-taxi-income",
+      "image_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/autonomous-car-passive-taxi-income.png",
+      "bytes": 2392625,
+      "sha256": "ca887053293e12bedfc38d3cf84470cf6f3a8414d9852db24ec4d04f029d0528",
+      "sha256_16": "ca887053293e12be",
+      "width": 1448,
+      "height": 1086,
+      "mime_type": "image/png",
+      "alt": "Generated image",
+      "remote_src": "<redacted signed remote image URL; decoded image saved separately>"
+    }
+  ],
+  "notes": [
+    "Single user-supplied Seedance storyboard-reference image.",
+    "Prompt files define the requested frame/shot count and layout policy.",
+    "Raw response files redact signed remote image URLs and omit base64 image payloads."
+  ]
+}

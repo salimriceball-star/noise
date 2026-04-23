@@ -1,0 +1,93 @@
+[범용 스토리보드 이미지 생성 프롬프트 템플릿]
+
+사용 목적:
+- 아래 템플릿은 긴 아이디어나 장면 설명을 “한 장짜리 스토리보드/레퍼런스 이미지”로 만들기 위한 프롬프트입니다.
+- Runway Seedance 2.0 Reference mode처럼, 나중에 “Use Image 1 as a storyboard to guide the scenes.”라고 붙여 사용할 수 있는 스토리보드 보드 생성을 목표로 합니다.
+- 영상용 장면 설계가 목적이므로, 예쁜 포스터보다 “순서, 카메라, 동선, 반복 소품, 인물 연속성”이 더 중요합니다.
+
+사용법:
+1. [사용자가 원하는 내용 입력란]에 만들고 싶은 이야기/장면을 자유롭게 적습니다.
+2. 필요하면 [선택 입력]의 컷 수, 배경, 그림체를 바꿉니다.
+3. 전체 템플릿을 이미지 생성 모델에 그대로 넣습니다.
+4. 결과물은 한 장의 스토리보드 이미지여야 합니다.
+
+----------------------------------------
+[이미지 생성 프롬프트]
+----------------------------------------
+
+Generate exactly one image now. The deliverable is a single storyboard-reference image. Do not answer with analysis, explanation, markdown, or multiple alternatives.
+
+Create a clean cinematic storyboard board for video generation reference use.
+Reference-role design for later use: this image should work as Image 1 in a prompt such as “Use Image 1 as a storyboard to guide the scenes.” The artwork itself must not contain @Image1, @Video1, platform UI, installation notes, or prompt-engineering text.
+
+[사용자가 원하는 내용 입력란]
+여기에 사용자의 스토리/장면 설명을 적으세요.
+예:
+자율주행이 일상화되어 사람이 운전하면 불법인 시대. 한 여자가 운전석에 앉아 화장을 고치는 동안 차가 회사에 데려다준다. 도착 효과음이 들리고 여자가 내리면 차는 조용히 떠난다. 텅 빈 운전석 POV로 길가의 손 흔드는 승객을 보고, 차가 정차해서 태운 뒤 목적지에 내려준다. 승객이 내리자 결제 효과음이 들리고, 카메라는 다시 처음 여자의 사무실 책상 위 스마트폰을 비춘다. 팝업 메시지: 택시 수익 발생 5천원. 여자가 사무실 통유리 벽 아래를 내려다보고, 텅 빈 주차장과 무인 운행 중인 차를 드론뷰로 보여준다.
+
+[선택 입력]
+- 원하는 컷 수: 8~12컷. 장면이 복잡하면 12컷, 단순하면 4~6컷.
+- 레이아웃: 3x4 contact sheet, 4x3 contact sheet, 2x3 grid, 또는 horizontal strip.
+- 배경/시대: 예) 현대 서울, 근미래 오피스 지구, 조용한 주거지, 추상적 공간.
+- 그림체: 예) cinematic storyboard, realistic previsualization, 2D minimalist illustration, muted tones.
+- 반드시 유지할 인물/소품: 예) 같은 여성, 같은 차량, 같은 스마트폰, 같은 사무실.
+
+Frame / shot policy:
+- Use the requested shot count. If no count is given, choose the smallest number of shots that clearly tells the story.
+- Make reading order unmistakable: left-to-right, top-to-bottom.
+- Use only tiny labels such as S1, S2, S3. Do not add dense captions, speech bubbles, fake UI screens, or long readable text.
+- The image must remain understandable even if every label is ignored.
+
+Continuity policy:
+- Assign stable IDs to recurring elements before describing shots:
+  - C1, C2 = recurring characters.
+  - V1 = recurring vehicle or machine.
+  - P1, P2 = important props.
+  - L1, L2 = recurring locations.
+  - D1 = important device/screen if needed.
+- Keep character appearance, vehicle shape, props, lighting, and geography consistent across all frames.
+- Use tail-frame continuity: every shot should feel like the next beat after the previous shot, not a disconnected poster.
+- Clarify what changes from shot to shot: camera distance, character action, object state, emotional tension, and reveal.
+
+Director / camera policy:
+- Include a varied sequence of shot types, chosen for storytelling:
+  - establishing shot
+  - interior medium shot
+  - close-up insert
+  - POV shot
+  - over-the-shoulder or foreground/background blocking
+  - exterior wide shot
+  - reaction shot
+  - lingering aftermath shot
+  - drone or top-down shot if useful
+- Show action visually through posture, movement, framing, light, and object placement.
+- Use sound effects only as visual hints: small sound-wave icon, subtle notification symbol, or tiny popup if necessary.
+- Do not rely on written explanations inside the artwork.
+
+Visual style policy:
+- Follow the user’s requested style first.
+- Prefer clear silhouettes, readable staging, strong value contrast, and restrained color scripting.
+- Avoid real brand logos, readable license plates, celebrity likenesses, sensational violence, sexualization, or unrelated background clutter.
+- If text is essential, keep it minimal and generic, such as “₩5,000” or “arrival,” not full UI paragraphs.
+
+Output format:
+- One complete storyboard-reference image only.
+- The image should look like a director’s planning board for a short video.
+- It should communicate sequence, blocking, camera grammar, repeated props, and final emotional beat clearly.
+
+----------------------------------------
+[짧은 작성 예시]
+----------------------------------------
+
+사용자 입력:
+밤의 편의점 앞에서 배달 로봇이 멈춰 서고, 비를 맞는 노인이 우산 없이 서 있다. 로봇이 배달함을 열자 안에 우산이 있고, 노인이 우산을 쓰고 길을 건넌다. 마지막에는 로봇이 비어 있는 배달함을 닫고 다시 비 오는 골목으로 이동한다.
+
+추천 컷 분해:
+S1: 비 오는 밤 편의점 앞 establishing shot.
+S2: 배달 로봇이 멈추고 노인이 비를 맞는 모습.
+S3: 로봇 배달함 close-up, 안에 우산.
+S4: 노인이 우산을 꺼내는 손 insert.
+S5: 노인이 길을 건너고 로봇이 기다리는 wide shot.
+S6: 로봇이 빈 배달함을 닫고 골목으로 사라지는 aftermath shot.
+
+이 예시처럼 “이야기 → 컷 분해 → 카메라/연속성/스타일 조건”으로 바꾸면 안정적인 스토리보드 이미지가 나옵니다.

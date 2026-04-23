@@ -1,0 +1,48 @@
+Generate exactly one image now. The deliverable is a single storyboard-reference image. Do not answer with analysis, explanation, markdown, or multiple alternatives.
+
+Create a clean cinematic storyboard board for Runway Seedance 2.0 Reference mode.
+Reference-role design for later use: this image should work as Image 1 in a prompt such as "Use Image 1 as a storyboard to guide the scenes." The artwork itself must not contain @Image1, @Video1, Jimeng syntax, platform UI, installation notes, or prompt-engineering text.
+
+Story premise:
+In a near-future Seoul-like city where autonomous driving is ordinary and human driving is illegal, a Korean office worker woman sits in the driver seat but does not drive. The car takes her to work while she fixes her makeup. After dropping her off, the empty car quietly becomes a self-driving taxi, picks up another passenger, earns a small fare, and the owner's office phone receives a passive-income notification. The final feeling should be calm, eerie, and socially observant: convenience has turned private property into a silent working asset.
+
+Frame policy:
+- Use 12 ordered storyboard shots.
+- Use a clear 3x4 contact sheet, 4x3 contact sheet, or two-row cinematic strip, whichever makes the image most readable.
+- Make reading order unmistakable: left-to-right, top-to-bottom.
+- Use only tiny labels such as S1, S2, S3. No dense captions, no speech bubbles, no brand names.
+- The image must remain understandable even if every label is ignored.
+
+Continuity policy:
+- W1 = the same Korean office worker woman, modern work outfit, calm expression, seated in the driver's seat while not driving.
+- V1 = the same sleek autonomous sedan, subtle roof/sensor details, no brand logo, clean interior.
+- P1 = the later street passenger, a generic pedestrian waving to hail the driverless car.
+- L1 = modern office district and glass company building.
+- D1 = W1's office desk and smartphone receiving the income notification.
+- Keep W1, V1, P1, L1, D1 visually consistent across shots.
+- Use tail-frame continuity: each shot should feel like the next beat of the same sequence, not disconnected posters.
+- Avoid showing unsafe manual driving. W1 is seated in the driver seat, but her hands are away from the wheel and the car is clearly self-driving.
+
+Director/camera policy and shot sequence:
+- S1 establishing shot: near-future office commute road, autonomous-only traffic atmosphere, V1 gliding smoothly toward L1.
+- S2 interior medium shot: W1 sits in the driver's seat applying makeup in a compact mirror while the steering wheel and dashboard operate autonomously.
+- S3 insert/close-up: minimal dashboard or sound-wave icon indicating arrival, no dense UI text; office building reflections outside.
+- S4 exterior medium shot: W1 opens the car door and steps out at the company entrance.
+- S5 lingering shot: V1 silently pulls away after dropping her off; the driver's seat is empty.
+- S6 POV from empty driver's seat: camera position inside V1, empty wheel/seat foreground, street ahead, P1 visible on the sidewalk waving.
+- S7 exterior curb shot: V1 stops precisely beside P1; door unlock/open cue, quiet driverless taxi behavior.
+- S8 interior passenger shot: P1 rides in the back seat while the empty driver's seat remains visible in foreground or mirror.
+- S9 drop-off/payment beat: P1 exits; use a subtle payment/settlement sound icon and small generic fare graphic, not detailed UI.
+- S10 office desk insert: camera returns to W1's office desk; smartphone on desk receives a simple popup reading roughly "taxi revenue ₩5,000" or a clear ₩5,000 income symbol.
+- S11 glass-wall office reaction: W1 steps out or pauses near the glass wall of the company building and looks down, quietly realizing the car is working without her.
+- S12 drone-view aftermath: empty parking lot below, then V1 continuing driverless through the city; make the final panel feel like a calm unresolved loop of autonomous labor.
+
+Visual style policy:
+- Premium cinematic storyboard / director previsualization board, realistic but slightly stylized.
+- Modern Korean or Seoul-like office district, glass facades, clean roads, muted city colors, early morning to daytime lighting progression.
+- Restrained color script: cool gray-blue office light, soft car interior highlights, subtle green/white autonomous system glows.
+- Emphasize empty driver's seat POV, quiet automation, and passive income notification as the core visual twist.
+- No real car brands, no real app logos, no readable license plates, no sexualization, no slapstick, no accident imagery, no police chase.
+- Keep text minimal; if text appears, only small shot labels and a simple ₩5,000 / taxi revenue popup.
+
+Generate one complete 12-shot storyboard-reference image only.

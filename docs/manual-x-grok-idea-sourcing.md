@@ -176,3 +176,27 @@ Verification notes:
 - PNG sizes: two 1491x1055 images and one 1448x1086 image, all within Seedance reference image requirements.
 - Vision inspection confirmed all three work as multi-shot storyboard/reference boards with modern Korea/Seoul cues and cinematic director-style shot planning.
 - Main known issue: AI-generated Korean/UI text may need manual cleanup before final video production.
+
+## Follow-up run: user-supplied autonomous taxi storyboard reference
+
+Run timestamp: 2026-04-24 KST
+
+Prompt practice update:
+- Exact-frame inputs should preserve the user-specified frame count; open-ended story inputs can be decomposed into the smallest readable 8-12 shot sequence.
+- A reusable user-facing template was saved as `/home/vboxuser/Desktop/storyboard_prompt_template.txt`, with a repo copy at `/home/vboxuser/noise/prompts/user_storyboard_image_prompt_template.txt`.
+- The template asks for a single storyboard-reference image, a clear contact-sheet layout, stable character/vehicle/prop/location IDs, tail-frame continuity, varied camera grammar, low text reliance, and no platform syntax in the artwork.
+
+Autonomous taxi concrete prompt:
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/autonomous-car-passive-taxi-income.prompt.txt`
+- The sequence is decomposed into 12 shots: commute, makeup in driver seat, arrival cue, office drop-off, empty car leaving, empty-driver-seat POV, passenger hail/pickup, passenger ride, payment beat, desk-phone revenue popup, glass-wall reaction, drone-view aftermath.
+- GUIVM output directory: `/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/`
+
+Generated GUIVM autonomous taxi image:
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/autonomous-car-passive-taxi-income.png`
+- Manifest: `/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/manifest.json`
+- PNG: 1448x1086, 2,392,625 bytes, sha256 prefix `ca887053293e12be`.
+
+Verification notes:
+- Vision inspection rated the result as a strong match for the requested sequence: 12 clear shots covering autonomous commute, makeup in the driver seat, arrival/drop-off, empty-driver-seat POV, passenger hail/pickup/ride/drop-off, revenue notification, office/glass-wall reaction, and drone-view urban aftermath.
+- Minor known issues: AI UI text is readable enough for planning but should be manually cleaned for final video assets; the parking-lot beat reads more like an office pickup/drop-off zone than a fully explicit empty parking lot.
+- Validation passed: `python3 -m py_compile tools/manual/generate_prompt_storyboard_image.py`, `python3 -m unittest discover -s tests -v` (17 tests), manifest/hash checks, signed URL/credential-like scan, and `git diff --check`.

@@ -1,0 +1,63 @@
+{
+  "request_id": "noise-custom-storyboard-20260423T153935Z-autonomous-car-passive-taxi-income-try1",
+  "trace_id": "noise-custom-storyboard-20260423T153935Z-autonomous-car-passive-taxi-income-try1",
+  "stage": "storyboard-image",
+  "symbol": "NOISE",
+  "model": {
+    "name": "thinking",
+    "reasoning_effort": "high"
+  },
+  "policy": {
+    "timeout_sec": 900
+  },
+  "prompt": {
+    "compiled_prompt": "Generate exactly one image now. The deliverable is a single storyboard-reference image. Do not answer with analysis, explanation, markdown, or multiple alternatives.\n\nCreate a clean cinematic storyboard board for Runway Seedance 2.0 Reference mode.\nReference-role design for later use: this image should work as Image 1 in a prompt such as \"Use Image 1 as a storyboard to guide the scenes.\" The artwork itself must not contain @Image1, @Video1, Jimeng syntax, platform UI, installation notes, or prompt-engineering text.\n\nStory premise:\nIn a near-future Seoul-like city where autonomous driving is ordinary and human driving is illegal, a Korean office worker woman sits in the driver seat but does not drive. The car takes her to work while she fixes her makeup. After dropping her off, the empty car quietly becomes a self-driving taxi, picks up another passenger, earns a small fare, and the owner's office phone receives a passive-income notification. The final feeling should be calm, eerie, and socially observant: convenience has turned private property into a silent working asset.\n\nFrame policy:\n- Use 12 ordered storyboard shots.\n- Use a clear 3x4 contact sheet, 4x3 contact sheet, or two-row cinematic strip, whichever makes the image most readable.\n- Make reading order unmistakable: left-to-right, top-to-bottom.\n- Use only tiny labels such as S1, S2, S3. No dense captions, no speech bubbles, no brand names.\n- The image must remain understandable even if every label is ignored.\n\nContinuity policy:\n- W1 = the same Korean office worker woman, modern work outfit, calm expression, seated in the driver's seat while not driving.\n- V1 = the same sleek autonomous sedan, subtle roof/sensor details, no brand logo, clean interior.\n- P1 = the later street passenger, a generic pedestrian waving to hail the driverless car.\n- L1 = modern office district and glass company building.\n- D1 = W1's office desk and smartphone receiving the income notification.\n- Keep W1, V1, P1, L1, D1 visually consistent across shots.\n- Use tail-frame continuity: each shot should feel like the next beat of the same sequence, not disconnected posters.\n- Avoid showing unsafe manual driving. W1 is seated in the driver seat, but her hands are away from the wheel and the car is clearly self-driving.\n\nDirector/camera policy and shot sequence:\n- S1 establishing shot: near-future office commute road, autonomous-only traffic atmosphere, V1 gliding smoothly toward L1.\n- S2 interior medium shot: W1 sits in the driver's seat applying makeup in a compact mirror while the steering wheel and dashboard operate autonomously.\n- S3 insert/close-up: minimal dashboard or sound-wave icon indicating arrival, no dense UI text; office building reflections outside.\n- S4 exterior medium shot: W1 opens the car door and steps out at the company entrance.\n- S5 lingering shot: V1 silently pulls away after dropping her off; the driver's seat is empty.\n- S6 POV from empty driver's seat: camera position inside V1, empty wheel/seat foreground, street ahead, P1 visible on the sidewalk waving.\n- S7 exterior curb shot: V1 stops precisely beside P1; door unlock/open cue, quiet driverless taxi behavior.\n- S8 interior passenger shot: P1 rides in the back seat while the empty driver's seat remains visible in foreground or mirror.\n- S9 drop-off/payment beat: P1 exits; use a subtle payment/settlement sound icon and small generic fare graphic, not detailed UI.\n- S10 office desk insert: camera returns to W1's office desk; smartphone on desk receives a simple popup reading roughly \"taxi revenue ₩5,000\" or a clear ₩5,000 income symbol.\n- S11 glass-wall office reaction: W1 steps out or pauses near the glass wall of the company building and looks down, quietly realizing the car is working without her.\n- S12 drone-view aftermath: empty parking lot below, then V1 continuing driverless through the city; make the final panel feel like a calm unresolved loop of autonomous labor.\n\nVisual style policy:\n- Premium cinematic storyboard / director previsualization board, realistic but slightly stylized.\n- Modern Korean or Seoul-like office district, glass facades, clean roads, muted city colors, early morning to daytime lighting progression.\n- Restrained color script: cool gray-blue office light, soft car interior highlights, subtle green/white autonomous system glows.\n- Emphasize empty driver's seat POV, quiet automation, and passive income notification as the core visual twist.\n- No real car brands, no real app logos, no readable license plates, no sexualization, no slapstick, no accident imagery, no police chase.\n- Keep text minimal; if text appears, only small shot labels and a simple ₩5,000 / taxi revenue popup.\n\nGenerate one complete 12-shot storyboard-reference image only."
+  },
+  "media": {
+    "images": []
+  },
+  "capacity_before": {
+    "running": 0,
+    "max_concurrency": 1,
+    "queue_depth": 0,
+    "queue_limit": 1,
+    "infer_quota": {
+      "per_minute": {
+        "limit": 1,
+        "window_sec": 60,
+        "used": 0,
+        "remaining": 1,
+        "reset_after_sec": 0
+      },
+      "per_hour": {
+        "limit": 60,
+        "window_sec": 3600,
+        "used": 5,
+        "remaining": 55,
+        "reset_after_sec": 383
+      },
+      "per_24h": {
+        "limit": 1440,
+        "window_sec": 86400,
+        "used": 234,
+        "remaining": 1206,
+        "reset_after_sec": 35124
+      },
+      "phase": {
+        "name": "normal",
+        "source": "",
+        "minute_limit": 1,
+        "hour_limit": 60,
+        "daily_limit": 1440,
+        "min_interval_sec": 60,
+        "next_allowed_in_sec": 0
+      }
+    },
+    "upstream_cooldown": {
+      "active": false,
+      "remaining_sec": 0
+    },
+    "_http_status": 200,
+    "_checked_at": "2026-04-23T15:39:35.677932+00:00"
+  }
+}

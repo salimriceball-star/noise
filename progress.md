@@ -64,3 +64,12 @@
 - [x] Prompt strengthened for positive/outcome-focused language, visual subject/location continuity, camera/lighting/performance cues, and low text reliance
 - [x] GUIVM generated 3 Seedance-ready storyboard reference images in `outputs/storyboard-images/2026-04-23-guivm-seedance-v3/`
 - [x] Vision inspection confirmed multi-shot sequence, modern Seoul/Korea cues, and cinematic director-style planning
+
+## Milestone 9: User-supplied storyboard prompt template + autonomous taxi board
+- [x] User-ready desktop template written to `/home/vboxuser/Desktop/storyboard_prompt_template.txt`
+- [x] Repo copy of reusable template written to `/home/vboxuser/noise/prompts/user_storyboard_image_prompt_template.txt`
+- [x] Concrete autonomous taxi storyboard prompt written to `/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/autonomous-car-passive-taxi-income.prompt.txt`
+- [x] GUIVM generated `/home/vboxuser/noise/outputs/storyboard-images/2026-04-24-autonomous-car-passive-taxi-income-seedance/autonomous-car-passive-taxi-income.png`
+- [x] Manifest/raw records saved with signed remote image URLs redacted
+- [x] Vision inspection confirmed a 12-shot autonomous taxi/passive-income sequence with only minor UI/text cleanup notes
+- [x] Validation passed: helper py_compile, 17 unit tests, manifest/hash checks, output security scan, and git diff whitespace check

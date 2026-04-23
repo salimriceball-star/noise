@@ -1,0 +1,51 @@
+{
+  "http_status": 200,
+  "elapsed_sec": 160.942,
+  "response_json": {
+    "ok": true,
+    "status": "success",
+    "request_id": "noise-custom-storyboard-20260423T153935Z-autonomous-car-passive-taxi-income-try1",
+    "trace_id": "noise-custom-storyboard-20260423T153935Z-autonomous-car-passive-taxi-income-try1",
+    "provider": "remote_local_llm_api",
+    "model": "thinking",
+    "cache_hit": false,
+    "timing": {
+      "queue_wait_ms": 0,
+      "inference_ms": 160714,
+      "total_ms": 160714
+    },
+    "usage": {
+      "prompt_tokens": 1190,
+      "completion_tokens": 0,
+      "total_tokens": 1190
+    },
+    "output": {
+      "text": "",
+      "json": {},
+      "images": [
+        {
+          "src": "<redacted signed remote image URL; decoded image saved separately>",
+          "alt": "Generated image",
+          "mime_type": "image/png",
+          "data_base64": "<omitted 3190168 base64 chars; decoded image saved separately>"
+        }
+      ],
+      "json_valid": false,
+      "schema_valid": false
+    },
+    "error": {
+      "code": "",
+      "message": "",
+      "retriable": false
+    },
+    "debug": {
+      "prompt_source": "compiled_prompt",
+      "prompt_len": 4762,
+      "prompt_newline_count": 47,
+      "prompt_sha1": "41ccc4a31196299d9c2e6b29fe746c12742e4930",
+      "schema_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "cdp_url": "http://127.0.0.1:9207",
+      "cdp_source": "browseros_server_args"
+    }
+  }
+}
