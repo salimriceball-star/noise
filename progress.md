@@ -30,6 +30,7 @@
 - [x] BrowserOS fixed profile / X login 상태에서 홈 피드 수동 점검
 - [x] Grok prompt 수동 작성/투입 및 응답 수집
 - [x] Grok prompt engineering 보강: 의도/맥락/타임윈도우/검색방향/좋은 예시/나쁜 예시/점수 스키마 포함
+- [x] 보강 후 기준 storyboard 후보 3개 추가 저장 (`outputs/storyboards/2026-04-23-post-prompt-engineering/`)
 - [x] Grok 응답 parser 시행착오 반영 (`prompt echo`의 빈 `<noise_json>` 스키마를 피하고 non-empty answer 선택)
 - [x] 아이디어 11개를 txt 파일로 저장
 - [x] `idea-status.tsv` + `idea-log.jsonl` 로 collected/storyboarded 상태 구분

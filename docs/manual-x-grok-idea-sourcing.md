@@ -76,8 +76,15 @@ Collected 11 idea files:
 - 3 manually interpreted from X home feed
 - 8 parsed from Grok/X-search response
 
-Storyboarded 3 versions:
+Storyboarded 3 versions before prompt-engineering reinforcement:
 
 1. `/home/vboxuser/noise/outputs/storyboards/2026-04-23/v1-age-verification-platform-safety.txt`
 2. `/home/vboxuser/noise/outputs/storyboards/2026-04-23/v2-cangaroo-independence-family-economy.txt`
 3. `/home/vboxuser/noise/outputs/storyboards/2026-04-23/v3-lowbirth-wording-language-reality.txt`
+
+After prompt-engineering reinforcement, 3 additional candidates were generated under:
+
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/README.txt`
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/v2-001-age-verification-family-privacy.txt`
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/v2-002-ai-ad-labor-value.txt`
+- `/home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/v2-003-lowbirth-language-reality.txt`

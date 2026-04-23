@@ -1,0 +1,68 @@
+# Post-Prompt-Engineering Storyboard Candidate 3
+
+source_idea: n-20260423-008
+topic: 저출산·저출생 용어 논쟁
+time_window_used: 48h
+source_type: grok_x_search
+source_confidence: medium
+prompt_basis: /home/vboxuser/noise/ideas/manual-x-grok/2026-04-23/grok-prompt-v2-engineered.txt
+
+## Concept Sheet
+
+surface_claim: 문제를 바꾸기 어렵다면, 먼저 문제를 부르는 말을 바꿀 수 있다.
+implicit_premise: 사회는 현실을 고치기 전에도 언어를 바꿔 책임감과 불편함을 조절하려 한다.
+viewer_meta_message: 작성자는 용어 변경이 배려일 수도 있지만, 동시에 책임의 위치를 흐리는 행정적 장치일 수도 있다고 보는구나.
+scene_caption_gap: 캡션은 섬세한 언어를 말하지만, 장면은 수치와 현장의 부담이 그대로인 회의실을 보여준다.
+main_axis: 언어 순화 vs 현실 왜곡
+support_axis: 배려 vs 정책 회피
+background_axis: 당사자 체감 현실 vs 행정 문구
+likely_comment_axes:
+- 용어 개선 vs 보여주기 행정
+- 낙인 완화 vs 현실 회피
+- 정책 본질 vs 표현 논쟁
+- 출산/육아 당사자 경험 vs 비당사자 언어 감수성
+- 수치의 차가움 vs 문구의 따뜻함
+expected_comment_archetypes:
+- 논리 교정형: “말 바꿀 시간에 제도나 바꿔라”
+- 배려 방어형: “언어도 인식에 영향을 준다”
+- 자기경험형: “아이 키우는 입장에선 단어보다 지원이 먼저다”
+- 냉소형: “수치가 그대로면 포스터만 바뀐 것”
+
+## 6-Cut Storyboard Seed
+
+1. utility — 뉴스 화면에 “저출산” 대신 “저출생”이라는 새 자막이 뜬다.
+   expected_comments: 용어 차이, 언어 감수성
+2. utility — 회의실에서 담당자가 보고서의 단어를 일괄 바꾸고, 빨간 교정 표시가 사라진다.
+   expected_comments: 행정 문구, 보여주기
+3. care — 홍보 포스터에는 부드러운 색감과 “함께 키우는 사회” 문구가 들어간다.
+   expected_comments: 배려, 긍정적 표현
+4. authority — 상사가 “표현은 부드럽게, 수치는 그대로 넣읍시다”라고 말한다.
+   expected_comments: 책임 회피, 정책 부재
+5. intimacy — 아이를 재우던 부모가 휴대폰 댓글창에 “단어보다 어린이집 대기가 먼저”라고 쓴다.
+   expected_comments: 자기경험, 현실감각
+6. aftermath — 수정된 포스터가 관공서 복도에 붙지만, 그 앞 대기 의자에는 지친 부모들이 말없이 앉아 있다.
+   expected_comments: 체감 현실, 냉소, 그래도 언어도 중요
+
+## Copy Variants
+
+- 담담한 예언: 현실을 바로 못 바꾸는 사회는, 먼저 현실을 부르는 말을 고친다.
+- 순진한 오해: 단어가 덜 날카로워지면 문제도 조금은 덜 아프게 느껴지는 걸까.
+- 차가운 효율주의: 수치는 그대로인데 용어만 바뀌면, 책임감도 조금은 분산된다.
+- 피곤한 현실관찰: 저출산이든 저출생이든, 댓글은 결국 “그래서 뭘 해줄 건데”로 돌아온다.
+
+## Risk / Safety
+
+risk_note: 비혼/무자녀/부모/아동 관련 비하 금지. 특정 정책 효과 허위 단정 금지. 언어와 책임의 간극에 집중.
+discard_if:
+- 출산 여부나 가족 형태 비하가 필요한 경우
+- 특정 집단을 문제 원인으로 지목해야 작동하는 경우
+- 정책 사실 확인 없이 단정해야 하는 경우
+freshness_risk: medium
+
+## Evaluation
+
+interpretation_conflict: 5
+rebuttal_pull: 5
+self_projection_pull: 4
+visual_caption_gap: 4
+brand_damage_risk: 2

@@ -1,0 +1,6 @@
+- when: 2026-04-23 19:17 KST
+- goal: 사용자 지적 확인; v2 engineered Grok prompt 보강 후 기준으로 storyboard 후보 3개 실제 생성
+- files: /home/vboxuser/noise/outputs/storyboards/2026-04-23-post-prompt-engineering/{README.txt,v2-001-age-verification-family-privacy.txt,v2-002-ai-ad-labor-value.txt,v2-003-lowbirth-language-reality.txt}; /home/vboxuser/noise/progress.md; /home/vboxuser/noise/docs/manual-x-grok-idea-sourcing.md
+- changes: 보강 전 후보와 분리하여 post-prompt-engineering 후보 3개 저장; 각 후보에 time_window/source_confidence/viewer_meta_message/scene_caption_gap/axes/6컷/story copy/risk/discard_if/score 포함
+- verify: `python3 -m unittest discover -s tests -v` => 17 OK; post_prompt_storyboard_txt_count=3
+- next: 후속 Grok 재질의 결과가 나오면 same dir schema로 교체/추가 가능
