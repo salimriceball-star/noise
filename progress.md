@@ -47,3 +47,12 @@
 - [x] GUIVM 점유 확인; Hermes image tool은 `FAL_KEY environment variable not set` 로 실패
 - [x] 이미지 경로 제공을 위해 local storyboard PNG fallback 3개 생성 (`outputs/storyboard-images/2026-04-23-local-storyboard-v3/`)
 - [x] 이미지 파일/manifest 및 vision inspection 검증
+
+## Milestone 7: GUIVM Seoul 9-shot storyboard generation
+- [x] Storyboard image prompt updated: Korea/contemporary Seoul setting required
+- [x] Storyboard format updated from 3x2/6 panels to 3x3/9 numbered shots
+- [x] Prompt now asks for professional director-style shooting plan: varied staging, shot sizes, angles, reaction/insert/cutaway shots
+- [x] GUIVM capacity retried after previous stockpile stop; live generation succeeded
+- [x] GUIVM PNG outputs saved under `outputs/storyboard-images/2026-04-23-guivm-seoul-9shot-v3/`
+- [x] Manifest/raw logs saved with signed remote image URLs redacted
+- [x] Vision inspection confirmed all 3 generated images are 3x3 / 9-shot sheets with contemporary Korea/Seoul cues

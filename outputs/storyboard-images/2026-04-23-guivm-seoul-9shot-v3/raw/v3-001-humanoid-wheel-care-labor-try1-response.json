@@ -1,0 +1,51 @@
+{
+  "http_status": 200,
+  "elapsed_sec": 399.062,
+  "response_json": {
+    "ok": true,
+    "status": "success",
+    "request_id": "noise-storyboard-image-20260423T132024Z-v3-001-humanoid-wheel-care-labor-try1",
+    "trace_id": "noise-storyboard-image-20260423T132024Z-v3-001-humanoid-wheel-care-labor-try1",
+    "provider": "remote_local_llm_api",
+    "model": "thinking",
+    "cache_hit": false,
+    "timing": {
+      "queue_wait_ms": 0,
+      "inference_ms": 398846,
+      "total_ms": 398846
+    },
+    "usage": {
+      "prompt_tokens": 983,
+      "completion_tokens": 0,
+      "total_tokens": 983
+    },
+    "output": {
+      "text": "",
+      "json": {},
+      "images": [
+        {
+          "src": "<redacted signed remote image URL; decoded image saved separately>",
+          "alt": "Generated image",
+          "mime_type": "image/png",
+          "data_base64": "<omitted 3034700 base64 chars; decoded image saved separately>"
+        }
+      ],
+      "json_valid": false,
+      "schema_valid": false
+    },
+    "error": {
+      "code": "",
+      "message": "",
+      "retriable": false
+    },
+    "debug": {
+      "prompt_source": "compiled_prompt",
+      "prompt_len": 3932,
+      "prompt_newline_count": 51,
+      "prompt_sha1": "72ad4a4388c42e333bb722da7acf28b112a845d7",
+      "schema_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "cdp_url": "http://127.0.0.1:9207",
+      "cdp_source": "browseros_server_args"
+    }
+  }
+}

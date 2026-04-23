@@ -119,3 +119,29 @@ Image generation note:
   - `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-local-storyboard-v3/v3-002-ai-storyboard-labor-value.png`
   - `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-local-storyboard-v3/v3-003-birth-contract-language-reality.png`
 - The image directory also contains GPT image-2 prompt files and `manifest.json` for reproducibility.
+
+## Follow-up run: GUIVM Seoul 9-shot storyboard images
+
+Run timestamp: 2026-04-23 22:40 KST
+
+User prompt update applied to the GUIVM storyboard helper:
+- Every storyboard image prompt must state that the scene is set in Korea, in contemporary Seoul.
+- The storyboard sheet must be at least a 3x3 grid, here implemented as exactly 9 numbered shots.
+- The 9 shots do not need to be separate topics; they may be different staging, camera angles, shot sizes, reaction shots, inserts, close-ups, cutaways, or emotional beats from the same topic.
+- The output should feel like an immersive professional director's shooting plan, not a flat six-panel summary.
+
+GUIVM became available after the prior ai_persona stockpile process stopped. The new GUIVM run used:
+- helper: `/home/vboxuser/noise/tools/manual/generate_guivm_storyboard_images.py`
+- output directory: `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seoul-9shot-v3/`
+- source storyboards: `/home/vboxuser/noise/outputs/storyboards/2026-04-23-all-ideas-v3/`
+
+Generated GUIVM images:
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seoul-9shot-v3/v3-001-humanoid-wheel-care-labor.png`
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seoul-9shot-v3/v3-002-ai-storyboard-labor-value.png`
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seoul-9shot-v3/v3-003-birth-contract-language-reality.png`
+
+Verification notes:
+- `manifest.json` records HTTP 200 and `output.images >= 1` for all 3 candidates.
+- Each generated PNG is 1254x1254.
+- Vision inspection confirmed all three are 3x3 / 9-shot storyboard sheets and read as contemporary Korea/Seoul, with usual AI text artifacts noted.
+- Signed remote image URLs remain redacted in raw logs and manifest.

@@ -1,0 +1,44 @@
+{
+  "running": 0,
+  "max_concurrency": 1,
+  "queue_depth": 0,
+  "queue_limit": 1,
+  "infer_quota": {
+    "per_minute": {
+      "limit": 1,
+      "window_sec": 60,
+      "used": 0,
+      "remaining": 1,
+      "reset_after_sec": 0
+    },
+    "per_hour": {
+      "limit": 60,
+      "window_sec": 3600,
+      "used": 20,
+      "remaining": 40,
+      "reset_after_sec": 55
+    },
+    "per_24h": {
+      "limit": 1440,
+      "window_sec": 86400,
+      "used": 225,
+      "remaining": 1215,
+      "reset_after_sec": 42669
+    },
+    "phase": {
+      "name": "normal",
+      "source": "",
+      "minute_limit": 1,
+      "hour_limit": 60,
+      "daily_limit": 1440,
+      "min_interval_sec": 60,
+      "next_allowed_in_sec": 0
+    }
+  },
+  "upstream_cooldown": {
+    "active": false,
+    "remaining_sec": 0
+  },
+  "_http_status": 200,
+  "_checked_at": "2026-04-23T13:33:51.424953+00:00"
+}

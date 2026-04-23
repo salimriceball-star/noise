@@ -1,0 +1,52 @@
+Generate exactly one image now. Do not answer with analysis, explanation, or markdown. The deliverable must be a single generated image.
+
+Create a polished 3-column x 3-row storyboard concept sheet with exactly 9 numbered shots for a social-media post in the Noise project. This is not ragebait; it is an interpretation-collision storyboard: the viewer should feel the gap between what the caption says and what the scenes quietly imply.
+
+Mandatory setting and directing standard:
+- The story is always set in Korea, in contemporary Seoul.
+- Use realistic modern Seoul visual cues where appropriate: apartment complexes, officetels, public offices, subway/bus stops, cafés, narrow side streets, office buildings, elevators, convenience stores, Hangang/Han River glimpses, or Seoul night lighting.
+- The image should feel like a professional director's shooting plan for immersive content: varied staging, camera angles, shot sizes, blocking, foreground/background action, reaction shots, insert shots, over-the-shoulder shots, establishing shots, close-ups, and cutaways.
+- The 9 shots do not need to be 9 different topics. They may be different directorial treatments, angles, emotional beats, or camera distances within the same topic.
+
+Visual style:
+- clean editorial storyboard / premium social concept board
+- cinematic but restrained realistic contemporary Seoul environments
+- consistent characters across shots
+- generic app and public-office UI only; no real platform names, no brand logos, no real person likenesses
+- subtle tension, not horror, not slapstick, not mockery
+- brand-safe: no sexualization, no hate, no humiliation of children, parents, workers, non-parents, or public servants
+- use clear panel borders and small shot numbers 1-9
+- avoid dense tiny text; if text appears on screens, make it short and generic
+- keep the final 3x3 sheet readable as one image
+
+Candidate: Low-birth language: soft words meet family condition sheets
+Surface claim: 현실적인 출산 계획은 차가운 거래가 아니라 책임 있는 가족 설계다.
+Implicit premise: 사회가 문제의 이름을 부드럽게 바꾸는 동안, 개인 관계 안에서는 출산·육아의 비용과 역할이 계약 조건처럼 계산된다.
+Viewer meta-message: 작성자는 저출생 문제를 따뜻한 언어로 포장하지만, 실제 가족 내부에서는 사랑이 조건표로 번역된다고 보는구나.
+Main/support/background axes: 현실적 계획 vs 관계의 거래화 / 언어 순화 vs 정책/비용 현실 / 가족의 감정 vs 사회의 인구 관리
+Caption-scene gap to visualize: The caption praises responsible planning and careful language while the scenes show unchanged costs, waiting lists, and intimacy becoming negotiation.
+Suggested copy mood: 현실을 바로 못 바꾸는 사회는 말을 고치고, 사람들은 조건을 적기 시작한다.
+Visual focus: A public-office team softens low-birth wording while a Korean couple turns childbirth planning into a contract-like checklist at home.
+
+Narrative seed to adapt into 9 directed shots:
+1. utility — 관공서 회의실 화면에서 “저출산” 단어가 “저출생”으로 자동 교체되고 부드러운 포스터 색상이 선택된다.
+   expected_comments: 언어 감수성, 보여주기
+2. utility — 같은 시간, 신혼부부가 식탁에서 “출산 조건 체크리스트” 앱을 열고 주거비/육아휴직/돌봄 분담을 적는다.
+   expected_comments: 현실적 합의, 차가움
+3. care — 둘은 미래 아이 방 샘플 이미지를 보며 잠깐 웃지만, 화면 한쪽에는 어린이집 대기 순번과 대출 이자가 떠 있다.
+   expected_comments: 사랑과 비용, 체감 현실
+4. authority — 상담 창구 직원이 “표현은 저출생으로 안내됩니다”라고 설명하고, 부부는 지원금 표를 넘긴다.
+   expected_comments: 행정 언어, 정책 한계
+5. intimacy — 한 사람이 계약서 서명란 앞에서 멈추고, 결혼사진 액자가 배경에서 흐릿하게 비친다.
+   expected_comments: 관계의 거래화, 책임 분담
+6. aftermath — 포스터는 따뜻하게 붙어 있고 계약서는 냉장고에 자석으로 고정되지만, 둘은 서로 다른 방향을 본다.
+   expected_comments: 현실적이지만 불편함, 언어와 삶의 거리
+
+Composition requirements for the 9-shot sheet:
+- Shots 1-2: establish modern Seoul location and the surface convenience/care promise.
+- Shots 3-4: show the tool/system in use through different camera angles or inserts.
+- Shot 5: the boundary-crossing or authority moment.
+- Shots 6-7: reaction shots or close-ups that reveal private/emotional/social cost without melodrama.
+- Shot 8: a wider aftermath shot where the system appears to work on the surface.
+- Shot 9: a final lingering shot where the unresolved human relationship/value problem remains visible.
+- Generate one complete 3x3 image sheet only.

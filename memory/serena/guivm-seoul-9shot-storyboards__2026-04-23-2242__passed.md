@@ -1,0 +1,6 @@
+- when: 2026-04-23 22:42 KST
+- goal: 사용자 지시에 따라 GUIVM 재시도; storyboard 이미지 프롬프트에 현대 서울/한국 배경, 최소 3x3 9샷, 전문 디렉터 촬영기획 기준 반영 후 실제 생성
+- files: /home/vboxuser/noise/tools/manual/generate_guivm_storyboard_images.py; /home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seoul-9shot-v3/*; /home/vboxuser/noise/docs/manual-x-grok-idea-sourcing.md; /home/vboxuser/noise/progress.md
+- changes: prompt를 3x2/6컷에서 3x3/9샷으로 변경; 현대 서울 배경과 shot size/angle/blocking/reaction/insert/cutaway 등 전문 디렉터형 지시 추가; GUIVM 이미지 3개 생성 및 signed URL redaction 유지.
+- verify: GUIVM HTTP 200/output.images>=1 x3; PNG 3개 1254x1254; vision inspection all 3 pass as 3x3/9-shot Seoul/Korea storyboard; pending final unit/code review at commit step.
+- next: 소형 텍스트 artifact는 AI 생성 한계로 남음; 필요시 후보별 1장씩 추가 재생성 가능.
