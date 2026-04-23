@@ -1,0 +1,9 @@
+{
+  "http_status": 200,
+  "json": {
+    "ok": true,
+    "service": "browseros-chatgpt-api",
+    "timestamp": "2026-04-23T13:54:06.862392+00:00",
+    "python": "/home/vboxuser/guivm/.venv/bin/python"
+  }
+}

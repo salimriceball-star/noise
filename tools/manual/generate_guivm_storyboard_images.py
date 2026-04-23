@@ -28,7 +28,7 @@ from typing import Any
 DEFAULT_BASE_URL = "http://10.0.2.2:8765"
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SOURCE_DIR = PROJECT_ROOT / "outputs" / "storyboards" / "2026-04-23-all-ideas-v3"
-DEFAULT_OUT_DIR = PROJECT_ROOT / "outputs" / "storyboard-images" / "2026-04-23-guivm-seoul-9shot-v3"
+DEFAULT_OUT_DIR = PROJECT_ROOT / "outputs" / "storyboard-images" / "2026-04-23-guivm-seedance-v3"
 
 
 @dataclass(frozen=True)
@@ -168,24 +168,33 @@ def build_prompt(candidate: Candidate) -> str:
     seed = extract_storyboard_seed(source)
     return f"""Generate exactly one image now. Do not answer with analysis, explanation, or markdown. The deliverable must be a single generated image.
 
-Create a polished 3-column x 3-row storyboard concept sheet with exactly 9 numbered shots for a social-media post in the Noise project. This is not ragebait; it is an interpretation-collision storyboard: the viewer should feel the gap between what the caption says and what the scenes quietly imply.
+Create a Seedance 2.0-ready storyboard reference image for a social-media video in the Noise project. This is not ragebait; it is an interpretation-collision storyboard: the viewer should feel the gap between what the caption says and what the scenes quietly imply.
+
+Seedance 2.0 usage target, based on Runway guidance:
+- The generated image will be used as Reference mode input, with a later video prompt like: "use Image 1 as a storyboard to guide the scenes."
+- Build the image as a clear multi-shot storyboard/reference board that Seedance can read visually, not as a text-heavy presentation slide.
+- Use positive, unambiguous, outcome-focused visual language. Show what should happen, not a list of what to avoid.
+- References are flexible: this single board should define subject continuity, Seoul background, scene progression, lighting mood, and shot rhythm.
+- Since Seedance supports director-level control over camera movement, lighting, and character performance, include visual cues for camera direction and performance through composition: establishing shots, tracking feel, over-the-shoulder inserts, close-ups, reaction shots, foreground/background blocking, and lingering aftermath frames.
+- Do not depend on tiny written captions or detailed UI text; if text appears, keep it short, generic, and readable.
 
 Mandatory setting and directing standard:
 - The story is always set in Korea, in contemporary Seoul.
 - Use realistic modern Seoul visual cues where appropriate: apartment complexes, officetels, public offices, subway/bus stops, cafés, narrow side streets, office buildings, elevators, convenience stores, Hangang/Han River glimpses, or Seoul night lighting.
-- The image should feel like a professional director's shooting plan for immersive content: varied staging, camera angles, shot sizes, blocking, foreground/background action, reaction shots, insert shots, over-the-shoulder shots, establishing shots, close-ups, and cutaways.
-- The 9 shots do not need to be 9 different topics. They may be different directorial treatments, angles, emotional beats, or camera distances within the same topic.
+- The storyboard should feel like a professional director's shooting plan for immersive video content, with cinematic continuity and emotional blocking.
+- The layout does not have to be a 3x3 grid. Use the clearest layout for Seedance: a cinematic contact sheet, horizontal shot strip, 2-row board, or 3x3 board are all acceptable.
+- Include 6 to 9 clearly numbered shots. Prefer 9 shots when readability stays strong, but never sacrifice shot clarity for a rigid grid.
+- The shots do not need to be 6-9 different topics. They may be different directorial treatments, angles, emotional beats, or camera distances within the same topic.
 
 Visual style:
-- clean editorial storyboard / premium social concept board
-- cinematic but restrained realistic contemporary Seoul environments
-- consistent characters across shots
+- clean premium storyboard / cinematic previsualization board
+- realistic contemporary Seoul environments, cinematic but restrained
+- consistent characters, wardrobe, props, and location logic across shots
 - generic app and public-office UI only; no real platform names, no brand logos, no real person likenesses
 - subtle tension, not horror, not slapstick, not mockery
 - brand-safe: no sexualization, no hate, no humiliation of children, parents, workers, non-parents, or public servants
-- use clear panel borders and small shot numbers 1-9
-- avoid dense tiny text; if text appears on screens, make it short and generic
-- keep the final 3x3 sheet readable as one image
+- use clear panel borders or shot separators and small shot numbers
+- keep the final image readable as one Seedance reference image
 
 Candidate: {candidate.title}
 Surface claim: {axes.get('surface_claim', '')}
@@ -196,17 +205,16 @@ Caption-scene gap to visualize: {candidate.caption_gap}
 Suggested copy mood: {candidate.copy_line}
 Visual focus: {candidate.visual_focus}
 
-Narrative seed to adapt into 9 directed shots:
+Narrative seed to adapt into a Seedance-ready shot board:
 {seed}
 
-Composition requirements for the 9-shot sheet:
-- Shots 1-2: establish modern Seoul location and the surface convenience/care promise.
-- Shots 3-4: show the tool/system in use through different camera angles or inserts.
-- Shot 5: the boundary-crossing or authority moment.
-- Shots 6-7: reaction shots or close-ups that reveal private/emotional/social cost without melodrama.
-- Shot 8: a wider aftermath shot where the system appears to work on the surface.
-- Shot 9: a final lingering shot where the unresolved human relationship/value problem remains visible.
-- Generate one complete 3x3 image sheet only.
+Recommended shot progression:
+- Opening shot(s): establish modern Seoul location and the surface convenience/care promise.
+- System/tool shot(s): show the device, app, robot, policy document, or workflow in use with insert/over-the-shoulder framing.
+- Boundary/authority shot: show the moment where the system quietly crosses into a human relationship, labor value, or family decision.
+- Reaction shot(s): close-ups or medium shots that reveal private/emotional/social cost without melodrama.
+- Aftermath shot(s): wider or lingering final frame where the system appears to work on the surface, but the unresolved human relationship/value problem remains visible.
+- Generate one complete Seedance-ready storyboard reference image only.
 """.strip()
 
 

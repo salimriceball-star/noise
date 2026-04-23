@@ -1,0 +1,51 @@
+{
+  "http_status": 200,
+  "elapsed_sec": 269.603,
+  "response_json": {
+    "ok": true,
+    "status": "success",
+    "request_id": "noise-storyboard-image-20260423T140246Z-v3-003-birth-contract-language-reality-try1",
+    "trace_id": "noise-storyboard-image-20260423T140246Z-v3-003-birth-contract-language-reality-try1",
+    "provider": "remote_local_llm_api",
+    "model": "thinking",
+    "cache_hit": false,
+    "timing": {
+      "queue_wait_ms": 0,
+      "inference_ms": 269391,
+      "total_ms": 269391
+    },
+    "usage": {
+      "prompt_tokens": 1324,
+      "completion_tokens": 0,
+      "total_tokens": 1324
+    },
+    "output": {
+      "text": "",
+      "json": {},
+      "images": [
+        {
+          "src": "<redacted signed remote image URL; decoded image saved separately>",
+          "alt": "Generated image",
+          "mime_type": "image/png",
+          "data_base64": "<omitted 2865596 base64 chars; decoded image saved separately>"
+        }
+      ],
+      "json_valid": false,
+      "schema_valid": false
+    },
+    "error": {
+      "code": "",
+      "message": "",
+      "retriable": false
+    },
+    "debug": {
+      "prompt_source": "compiled_prompt",
+      "prompt_len": 5297,
+      "prompt_newline_count": 59,
+      "prompt_sha1": "ba6ef3db76c372fb59c974c702975679f951fa89",
+      "schema_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "cdp_url": "http://127.0.0.1:9207",
+      "cdp_source": "browseros_server_args"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-04-23T14:07:15.945285+00:00",
+  "base_url": "http://10.0.2.2:8765",
+  "source_dir": "/home/vboxuser/noise/outputs/storyboards/2026-04-23-all-ideas-v3",
+  "success_criterion": "HTTP 200 with output.images length >= 1 for each candidate",
+  "images": [
+    {
+      "candidate": "v3-001-humanoid-wheel-care-labor",
+      "image_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-001-humanoid-wheel-care-labor.png",
+      "bytes": 2116944,
+      "sha256": "94d64eec473479c976700be9d5ad88ad2c3d2c804a0205a2d334ed642a44bca2",
+      "width": 1491,
+      "height": 1055,
+      "mime_type": "image/png",
+      "alt": "Generated image",
+      "remote_src": "<redacted signed remote image URL; decoded image saved separately>",
+      "request_id": "noise-storyboard-image-20260423T135408Z-v3-001-humanoid-wheel-care-labor-try1",
+      "attempt": 1,
+      "prompt_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-001-humanoid-wheel-care-labor.prompt.txt",
+      "request_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/raw/v3-001-humanoid-wheel-care-labor-try1-request.json",
+      "response_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/raw/v3-001-humanoid-wheel-care-labor-try1-response.json"
+    },
+    {
+      "candidate": "v3-002-ai-storyboard-labor-value",
+      "image_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-002-ai-storyboard-labor-value.png",
+      "bytes": 2357658,
+      "sha256": "eab3a602993041c8cda00e81814d42909974f99ff34e519e4e8660b9cb3f3a71",
+      "width": 1491,
+      "height": 1055,
+      "mime_type": "image/png",
+      "alt": "Generated image",
+      "remote_src": "<redacted signed remote image URL; decoded image saved separately>",
+      "request_id": "noise-storyboard-image-20260423T135838Z-v3-002-ai-storyboard-labor-value-try1",
+      "attempt": 1,
+      "prompt_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-002-ai-storyboard-labor-value.prompt.txt",
+      "request_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/raw/v3-002-ai-storyboard-labor-value-try1-request.json",
+      "response_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/raw/v3-002-ai-storyboard-labor-value-try1-response.json"
+    },
+    {
+      "candidate": "v3-003-birth-contract-language-reality",
+      "image_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-003-birth-contract-language-reality.png",
+      "bytes": 2149195,
+      "sha256": "499545a453cf082d94739d3170d67b73963c2cd5efb1b79983c6d36427b77104",
+      "width": 1448,
+      "height": 1086,
+      "mime_type": "image/png",
+      "alt": "Generated image",
+      "remote_src": "<redacted signed remote image URL; decoded image saved separately>",
+      "request_id": "noise-storyboard-image-20260423T140246Z-v3-003-birth-contract-language-reality-try1",
+      "attempt": 1,
+      "prompt_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-003-birth-contract-language-reality.prompt.txt",
+      "request_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/raw/v3-003-birth-contract-language-reality-try1-request.json",
+      "response_path": "/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/raw/v3-003-birth-contract-language-reality-try1-response.json"
+    }
+  ]
+}

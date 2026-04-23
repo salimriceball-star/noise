@@ -145,3 +145,34 @@ Verification notes:
 - Each generated PNG is 1254x1254.
 - Vision inspection confirmed all three are 3x3 / 9-shot storyboard sheets and read as contemporary Korea/Seoul, with usual AI text artifacts noted.
 - Signed remote image URLs remain redacted in raw logs and manifest.
+
+## Follow-up run: Seedance 2.0-ready storyboard reference images
+
+Run timestamp: 2026-04-23 23:08 KST
+
+Runway guide reviewed:
+- URL: `https://help.runwayml.com/hc/en-us/articles/50488490233363-Creating-with-Seedance-2-0`
+- Relevant Seedance 2.0 guidance applied:
+  - Seedance can generate video from text, image, video, and audio inputs.
+  - Reference mode is best when controlling what gets pulled from each image/video input.
+  - Prompts should be positive, unambiguous, and outcome-focused.
+  - A storyboard image can be used with a prompt like `use Image 1 as a storyboard to guide the scenes`.
+  - The model supports director-level control over camera movement, lighting, and character performance, so storyboard references should show camera/lighting/performance cues visually.
+  - Input image requirements are compatible with these PNG outputs: image files are >300 px and <6000 px.
+
+Prompt update:
+- The helper no longer forces a rigid 3x3 grid.
+- It now asks for a Seedance-ready storyboard/reference board with 6-9 numbered shots, preferring 9 only when readability stays strong.
+- It emphasizes modern Seoul continuity, subject/background consistency, shot rhythm, establishing shots, OTS/insert shots, reaction shots, close-ups, blocking, and lingering aftermath frames.
+- It minimizes reliance on dense text/UI because video models often distort small text.
+
+Generated GUIVM Seedance-ready images:
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-001-humanoid-wheel-care-labor.png`
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-002-ai-storyboard-labor-value.png`
+- `/home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/v3-003-birth-contract-language-reality.png`
+
+Verification notes:
+- `manifest.json` records HTTP 200 and `output.images >= 1` for all 3 candidates.
+- PNG sizes: two 1491x1055 images and one 1448x1086 image, all within Seedance reference image requirements.
+- Vision inspection confirmed all three work as multi-shot storyboard/reference boards with modern Korea/Seoul cues and cinematic director-style shot planning.
+- Main known issue: AI-generated Korean/UI text may need manual cleanup before final video production.

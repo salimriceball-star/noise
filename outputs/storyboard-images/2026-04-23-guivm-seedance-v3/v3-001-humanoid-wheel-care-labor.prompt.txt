@@ -1,0 +1,60 @@
+Generate exactly one image now. Do not answer with analysis, explanation, or markdown. The deliverable must be a single generated image.
+
+Create a Seedance 2.0-ready storyboard reference image for a social-media video in the Noise project. This is not ragebait; it is an interpretation-collision storyboard: the viewer should feel the gap between what the caption says and what the scenes quietly imply.
+
+Seedance 2.0 usage target, based on Runway guidance:
+- The generated image will be used as Reference mode input, with a later video prompt like: "use Image 1 as a storyboard to guide the scenes."
+- Build the image as a clear multi-shot storyboard/reference board that Seedance can read visually, not as a text-heavy presentation slide.
+- Use positive, unambiguous, outcome-focused visual language. Show what should happen, not a list of what to avoid.
+- References are flexible: this single board should define subject continuity, Seoul background, scene progression, lighting mood, and shot rhythm.
+- Since Seedance supports director-level control over camera movement, lighting, and character performance, include visual cues for camera direction and performance through composition: establishing shots, tracking feel, over-the-shoulder inserts, close-ups, reaction shots, foreground/background blocking, and lingering aftermath frames.
+- Do not depend on tiny written captions or detailed UI text; if text appears, keep it short, generic, and readable.
+
+Mandatory setting and directing standard:
+- The story is always set in Korea, in contemporary Seoul.
+- Use realistic modern Seoul visual cues where appropriate: apartment complexes, officetels, public offices, subway/bus stops, cafés, narrow side streets, office buildings, elevators, convenience stores, Hangang/Han River glimpses, or Seoul night lighting.
+- The storyboard should feel like a professional director's shooting plan for immersive video content, with cinematic continuity and emotional blocking.
+- The layout does not have to be a 3x3 grid. Use the clearest layout for Seedance: a cinematic contact sheet, horizontal shot strip, 2-row board, or 3x3 board are all acceptable.
+- Include 6 to 9 clearly numbered shots. Prefer 9 shots when readability stays strong, but never sacrifice shot clarity for a rigid grid.
+- The shots do not need to be 6-9 different topics. They may be different directorial treatments, angles, emotional beats, or camera distances within the same topic.
+
+Visual style:
+- clean premium storyboard / cinematic previsualization board
+- realistic contemporary Seoul environments, cinematic but restrained
+- consistent characters, wardrobe, props, and location logic across shots
+- generic app and public-office UI only; no real platform names, no brand logos, no real person likenesses
+- subtle tension, not horror, not slapstick, not mockery
+- brand-safe: no sexualization, no hate, no humiliation of children, parents, workers, non-parents, or public servants
+- use clear panel borders or shot separators and small shot numbers
+- keep the final image readable as one Seedance reference image
+
+Candidate: Humanoid robot: human shape hides an efficiency ledger
+Surface claim: 범용 로봇은 인간형이면 어떤 일에도 적응할 수 있고, 필요하면 바퀴를 달아 더 효율적으로 움직일 수 있다.
+Implicit premise: 인간의 형태는 친밀감과 신뢰를 빌려오지만, 실제 평가는 결국 효율·속도·대체 가능성으로 계산된다.
+Viewer meta-message: 작성자는 결국 인간형 로봇을 '가까운 동료'로 말하면서도, 인간성은 포장이고 쓸모가 본체라고 보는구나.
+Main/support/background axes: 인간형 친밀감 vs 도구적 효율 / 돌봄 보조 vs 노동 대체 / 신뢰 가능한 동료 vs 관리 가능한 자산
+Caption-scene gap to visualize: The caption praises universal care and efficiency while the scenes show human trust, labor schedules, and everyday contact being redesigned as dashboard options.
+Suggested copy mood: 사람을 닮은 기계가 먼저 빌리는 것은 손이 아니라 신뢰다.
+Visual focus: A wheeled humanoid robot helps in a Korean apartment/care setting while caregivers, residents, and children quietly renegotiate what human presence is worth.
+
+Narrative seed to adapt into a Seedance-ready shot board:
+1. utility — 한국 아파트 단지 로비에서 사람 크기의 휴머노이드 로봇이 작은 바퀴를 펼치고 택배 상자를 조용히 옮긴다.
+   expected_comments: 효율, 바퀴면 충분함
+2. utility — 관리 앱 화면에는 “인간형 모드 / 바퀴 이동 모드 / 돌봄 모드”가 선택지처럼 뜬다.
+   expected_comments: 인간형의 이유, 범용성
+3. care — 노인이 로봇에게 약 봉투를 받지만, 옆 의자의 요양보호사는 근무표를 지운다.
+   expected_comments: 돌봄 보조, 일자리 대체
+4. authority — 관리자가 대시보드에서 “인력 공백 32% 절감” 수치를 확인하고 승인 도장을 누른다.
+   expected_comments: 비용 계산, 사람의 자리
+5. intimacy — 아이가 로봇에게 인사하지만 로봇은 친근한 표정을 흉내 낸 채 다음 업무 알림으로 고개를 돌린다.
+   expected_comments: 친밀감의 가짜성, 불쾌함
+6. aftermath — 로봇은 문제없이 복도를 지나가고, 사람들은 편해졌지만 서로 덜 마주 본다.
+   expected_comments: 편의의 대가, 관계 온도 변화
+
+Recommended shot progression:
+- Opening shot(s): establish modern Seoul location and the surface convenience/care promise.
+- System/tool shot(s): show the device, app, robot, policy document, or workflow in use with insert/over-the-shoulder framing.
+- Boundary/authority shot: show the moment where the system quietly crosses into a human relationship, labor value, or family decision.
+- Reaction shot(s): close-ups or medium shots that reveal private/emotional/social cost without melodrama.
+- Aftermath shot(s): wider or lingering final frame where the system appears to work on the surface, but the unresolved human relationship/value problem remains visible.
+- Generate one complete Seedance-ready storyboard reference image only.

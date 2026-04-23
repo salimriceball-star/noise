@@ -1,0 +1,6 @@
+- when: 2026-04-23 23:09 KST
+- goal: Runway Seedance 2.0 guide 기반으로 Noise storyboard image prompt 보강 후 GUIVM 재생성
+- files: /home/vboxuser/noise/tools/manual/generate_guivm_storyboard_images.py; /home/vboxuser/noise/outputs/storyboard-images/2026-04-23-guivm-seedance-v3/*; /home/vboxuser/noise/docs/manual-x-grok-idea-sourcing.md; /home/vboxuser/noise/progress.md
+- changes: Reference mode용 `use Image 1 as storyboard` 관점 반영; 3x3 강제 제거; 6-9 numbered shots/readability-first layout; positive/outcome-focused language; 현대 서울 continuity, camera/lighting/performance, OTS/insert/reaction/aftermath cue 강화.
+- verify: GUIVM HTTP 200/output.images>=1 x3; PNG 1491x1055/1491x1055/1448x1086; vision inspection all pass as Seedance-ready multi-shot Seoul/Korea reference boards; known issue=AI Korean/UI text artifacts.
+- next: Seedance 실제 투입 시 video prompt는 `use Image 1 as a storyboard to guide the scenes`로 시작하고, 작은 텍스트는 후반 편집에서 보정 권장.

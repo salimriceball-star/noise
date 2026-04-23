@@ -56,3 +56,11 @@
 - [x] GUIVM PNG outputs saved under `outputs/storyboard-images/2026-04-23-guivm-seoul-9shot-v3/`
 - [x] Manifest/raw logs saved with signed remote image URLs redacted
 - [x] Vision inspection confirmed all 3 generated images are 3x3 / 9-shot sheets with contemporary Korea/Seoul cues
+
+## Milestone 8: Seedance-ready storyboard reference generation
+- [x] Runway Seedance 2.0 guide reviewed and distilled into prompt rules
+- [x] Storyboard helper updated for Reference-mode use: `use Image 1 as a storyboard to guide the scenes`
+- [x] Rigid 3x3 requirement removed; prompt now requests 6-9 clear numbered shots with readability-first layout
+- [x] Prompt strengthened for positive/outcome-focused language, visual subject/location continuity, camera/lighting/performance cues, and low text reliance
+- [x] GUIVM generated 3 Seedance-ready storyboard reference images in `outputs/storyboard-images/2026-04-23-guivm-seedance-v3/`
+- [x] Vision inspection confirmed multi-shot sequence, modern Seoul/Korea cues, and cinematic director-style planning

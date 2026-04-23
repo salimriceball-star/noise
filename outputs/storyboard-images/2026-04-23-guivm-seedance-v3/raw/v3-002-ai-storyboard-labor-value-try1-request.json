@@ -1,0 +1,63 @@
+{
+  "request_id": "noise-storyboard-image-20260423T135838Z-v3-002-ai-storyboard-labor-value-try1",
+  "trace_id": "noise-storyboard-image-20260423T135838Z-v3-002-ai-storyboard-labor-value-try1",
+  "stage": "storyboard-image",
+  "symbol": "NOISE",
+  "model": {
+    "name": "thinking",
+    "reasoning_effort": "high"
+  },
+  "policy": {
+    "timeout_sec": 900
+  },
+  "prompt": {
+    "compiled_prompt": "Generate exactly one image now. Do not answer with analysis, explanation, or markdown. The deliverable must be a single generated image.\n\nCreate a Seedance 2.0-ready storyboard reference image for a social-media video in the Noise project. This is not ragebait; it is an interpretation-collision storyboard: the viewer should feel the gap between what the caption says and what the scenes quietly imply.\n\nSeedance 2.0 usage target, based on Runway guidance:\n- The generated image will be used as Reference mode input, with a later video prompt like: \"use Image 1 as a storyboard to guide the scenes.\"\n- Build the image as a clear multi-shot storyboard/reference board that Seedance can read visually, not as a text-heavy presentation slide.\n- Use positive, unambiguous, outcome-focused visual language. Show what should happen, not a list of what to avoid.\n- References are flexible: this single board should define subject continuity, Seoul background, scene progression, lighting mood, and shot rhythm.\n- Since Seedance supports director-level control over camera movement, lighting, and character performance, include visual cues for camera direction and performance through composition: establishing shots, tracking feel, over-the-shoulder inserts, close-ups, reaction shots, foreground/background blocking, and lingering aftermath frames.\n- Do not depend on tiny written captions or detailed UI text; if text appears, keep it short, generic, and readable.\n\nMandatory setting and directing standard:\n- The story is always set in Korea, in contemporary Seoul.\n- Use realistic modern Seoul visual cues where appropriate: apartment complexes, officetels, public offices, subway/bus stops, cafés, narrow side streets, office buildings, elevators, convenience stores, Hangang/Han River glimpses, or Seoul night lighting.\n- The storyboard should feel like a professional director's shooting plan for immersive video content, with cinematic continuity and emotional blocking.\n- The layout does not have to be a 3x3 grid. Use the clearest layout for Seedance: a cinematic contact sheet, horizontal shot strip, 2-row board, or 3x3 board are all acceptable.\n- Include 6 to 9 clearly numbered shots. Prefer 9 shots when readability stays strong, but never sacrifice shot clarity for a rigid grid.\n- The shots do not need to be 6-9 different topics. They may be different directorial treatments, angles, emotional beats, or camera distances within the same topic.\n\nVisual style:\n- clean premium storyboard / cinematic previsualization board\n- realistic contemporary Seoul environments, cinematic but restrained\n- consistent characters, wardrobe, props, and location logic across shots\n- generic app and public-office UI only; no real platform names, no brand logos, no real person likenesses\n- subtle tension, not horror, not slapstick, not mockery\n- brand-safe: no sexualization, no hate, no humiliation of children, parents, workers, non-parents, or public servants\n- use clear panel borders or shot separators and small shot numbers\n- keep the final image readable as one Seedance reference image\n\nCandidate: AI storyboard workflow: access hides the price of taste\nSurface claim: 3x3 스토리보드와 영상 변환 도구를 쓰면 프롬프트가 서툴러도 누구나 광고 영상을 만들 수 있다.\nImplicit premise: 창작의 값은 취향·경험·팀워크보다, 실패율 낮은 워크플로와 빠른 산출물로 다시 계산된다.\nViewer meta-message: 작성자는 민주화를 말하지만, 감각과 책임이 ‘누구나 할 수 있는 절차’로 납작해지는 순간을 보여주려는구나.\nMain/support/background axes: 창작 민주화 vs 전문성 평가절하 / 빠른 제작 vs 축적된 감각 / 소상공인 기회 vs 프리랜서 생계\nCaption-scene gap to visualize: The caption sells creative access for everyone while the scenes show accumulated taste and labor becoming a removable workflow cost.\nSuggested copy mood: 창작은 사라지지 않는다. 다만 견적서에서 먼저 사라진다.\nVisual focus: A small Korean pet shop uses an AI 3x3 storyboard/video workflow to make an ad while a freelance designer sees the proposal disappear from the estimate.\n\nNarrative seed to adapt into a Seedance-ready shot board:\n1. utility — 동네 펫샵 사장이 고양이 사료 봉투 사진을 스마트폰으로 찍는다.\n   expected_comments: 접근성, 소상공인 도구\n2. utility — AI 화면에 3x3 스토리보드 그리드가 자동 생성되고 “실패율 낮음” 배지가 뜬다.\n   expected_comments: 신기함, 자동화\n3. care — 직원이 “우리도 오늘 광고 올릴 수 있겠다”고 웃으며 매장 SNS 예약창을 연다.\n   expected_comments: 기회, 생존 도구\n4. authority — 화면 옵션에 “촬영팀 없이 / 디자이너 없이 / 15초 완성” 문구가 체크된다.\n   expected_comments: 노동 삭제, 전문성 환원\n5. intimacy — 옆 테이블 프리랜서 디자이너가 같은 제품 제안서와 취소된 견적 메일을 동시에 본다.\n   expected_comments: 생계, 감각의 가격\n6. aftermath — 광고 영상은 업로드되고 조회수는 오르지만, 화면 속 고양이와 매장 분위기는 어딘가 맞지 않는다.\n   expected_comments: 그래도 충분함, 품질과 책임\n\nRecommended shot progression:\n- Opening shot(s): establish modern Seoul location and the surface convenience/care promise.\n- System/tool shot(s): show the device, app, robot, policy document, or workflow in use with insert/over-the-shoulder framing.\n- Boundary/authority shot: show the moment where the system quietly crosses into a human relationship, labor value, or family decision.\n- Reaction shot(s): close-ups or medium shots that reveal private/emotional/social cost without melodrama.\n- Aftermath shot(s): wider or lingering final frame where the system appears to work on the surface, but the unresolved human relationship/value problem remains visible.\n- Generate one complete Seedance-ready storyboard reference image only."
+  },
+  "media": {
+    "images": []
+  },
+  "capacity_before": {
+    "running": 0,
+    "max_concurrency": 1,
+    "queue_depth": 0,
+    "queue_limit": 1,
+    "infer_quota": {
+      "per_minute": {
+        "limit": 1,
+        "window_sec": 60,
+        "used": 0,
+        "remaining": 1,
+        "reset_after_sec": 0
+      },
+      "per_hour": {
+        "limit": 60,
+        "window_sec": 3600,
+        "used": 10,
+        "remaining": 50,
+        "reset_after_sec": 54
+      },
+      "per_24h": {
+        "limit": 1440,
+        "window_sec": 86400,
+        "used": 227,
+        "remaining": 1213,
+        "reset_after_sec": 41182
+      },
+      "phase": {
+        "name": "normal",
+        "source": "",
+        "minute_limit": 1,
+        "hour_limit": 60,
+        "daily_limit": 1440,
+        "min_interval_sec": 60,
+        "next_allowed_in_sec": 0
+      }
+    },
+    "upstream_cooldown": {
+      "active": false,
+      "remaining_sec": 0
+    },
+    "_http_status": 200,
+    "_checked_at": "2026-04-23T13:58:38.246508+00:00"
+  }
+}

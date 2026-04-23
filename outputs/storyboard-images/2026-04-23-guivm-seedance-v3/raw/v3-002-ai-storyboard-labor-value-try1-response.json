@@ -1,0 +1,51 @@
+{
+  "http_status": 200,
+  "elapsed_sec": 248.052,
+  "response_json": {
+    "ok": true,
+    "status": "success",
+    "request_id": "noise-storyboard-image-20260423T135838Z-v3-002-ai-storyboard-labor-value-try1",
+    "trace_id": "noise-storyboard-image-20260423T135838Z-v3-002-ai-storyboard-labor-value-try1",
+    "provider": "remote_local_llm_api",
+    "model": "thinking",
+    "cache_hit": false,
+    "timing": {
+      "queue_wait_ms": 0,
+      "inference_ms": 247805,
+      "total_ms": 247805
+    },
+    "usage": {
+      "prompt_tokens": 1301,
+      "completion_tokens": 0,
+      "total_tokens": 1301
+    },
+    "output": {
+      "text": "",
+      "json": {},
+      "images": [
+        {
+          "src": "<redacted signed remote image URL; decoded image saved separately>",
+          "alt": "Generated image",
+          "mime_type": "image/png",
+          "data_base64": "<omitted 3143544 base64 chars; decoded image saved separately>"
+        }
+      ],
+      "json_valid": false,
+      "schema_valid": false
+    },
+    "error": {
+      "code": "",
+      "message": "",
+      "retriable": false
+    },
+    "debug": {
+      "prompt_source": "compiled_prompt",
+      "prompt_len": 5206,
+      "prompt_newline_count": 59,
+      "prompt_sha1": "894e3d300f4eeff42ceb6a116a93396e6e6d0cf8",
+      "schema_sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "cdp_url": "http://127.0.0.1:9207",
+      "cdp_source": "browseros_server_args"
+    }
+  }
+}
